@@ -1,0 +1,27 @@
+.home {
+  display: flex;
+  height: 100vh;
+  background-image: url('/static/media/new-york.9f604ff2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.title-header {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  color: white;
+  font-size: 3em;
+  height: 100vh;
+}
+
+.title-header-text {
+  position: absolute;
+  top: 56%;
+  left: 35%;
+  color: white;
+  font-size: 1.5em;
+  height: 100vh;
+}

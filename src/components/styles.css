@@ -1,5 +1,46 @@
+
+.homeContent {
+  height: 100vh;
+  margin-top: 2em;
+}
+
 .navbar {
-  padding-top: 0.5%;
-  padding-bottom: 0.5%;
-  font-size: x-large
+  display: flex;
+  position: fixed;
+  align-content: center;
+  top: 0;
+  width: 100%;
+}
+
+.nav {
+  position: fixed;
+  align-content: flex-end;
+  top: 1.5;
+  width: 100%
+}
+
+.nav-link:hover {
+  color: white;
+  font-weight: thin;
+  text-decoration: burlywood;
+  border-bottom: 1px solid black;
+}
+
+.img {
+  max-width: 25%;
+  height: auto;
+}
+
+.about {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 100vh;
+}
+
+.projects {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 100vh;
 }
