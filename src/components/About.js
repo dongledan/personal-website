@@ -13,7 +13,7 @@ export default function About() {
   <div id='about' class='about'>
     <h1 class='about-header'>About Me</h1>
     <div class='container row mx-auto p-2 rounded w-90'>
-      <Carousel interval='10000' class='mt-1 col-6'>
+      <Carousel interval='10000' class='mt-1 col-6' fade='true'>
         <Carousel.Item>
           <img
             className="img"

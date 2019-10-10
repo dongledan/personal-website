@@ -2,11 +2,12 @@
   position: relative;
   justify-items: left;
   width: 50vw;
-  height: 45vw;
+  height: 90vh;
 }
 
 .carousel {
   position: relative;
+  display: flex;
   width: 45%;
   height: 45%;
 }
