@@ -73,12 +73,15 @@ export default function About() {
         <p>When I am not debugging, you can find me at the gym or the 
           outdoors getting into who knows what.
         </p>
-        <p>Proficient:<br></br> Javascript, Node.js, Express.js, React.js, 
-        Redux.js, Sequelize, Axios, Git, HTML, CSS, PostgreSQL
+        <h5>Proficient: </h5>
+        <p>Javascript, Node.js, Express.js, React.js, 
+        Redux.js, Sequelize, Axios, Git, HTML, CSS, PostgreSQL, Bootstrap
         </p>
-        <p>Familiar:<br></br> Material UI, Figma, Webpack, Mocha, Chai, Jasmine, 
-        Phaser, Bootstrap</p>
-        <p>Mediocre:<br></br> Singing, Dancing, Powerlifting</p>
+        <h5>Familiar:</h5>
+        <p> Material UI, Figma, Webpack, Mocha, Chai, Jasmine, 
+        Phaser, Firebase, Google Vision</p>
+        <h5>Mediocre:</h5>
+        <p> Singing, Dancing, Powerlifting</p>
         <Button
           variant="dark"
           id="resume-btn"
