@@ -4,7 +4,9 @@ import linkedIn from '../assets/linkedIn.JPG';
 import powerlifting from '../assets/powerlifting.png';
 import hiking from '../assets/hiking.jpeg';
 import spartan from '../assets/spartan.JPG';
-import './styles.css';
+import './About.css';
+import pdf from './Documents/Danny_Li_Resume.pdf';
+import Button from 'react-bootstrap/Button';
 
 export default function About() {
   return (
@@ -77,8 +79,18 @@ export default function About() {
         <p>Familiar:<br></br> Material UI, Figma, Webpack, Mocha, Chai, Jasmine, 
         Phaser, Bootstrap</p>
         <p>Mediocre:<br></br> Singing, Dancing, Powerlifting</p>
-        <p>
-</p>
+        <Button
+          variant="dark"
+          id="resume-btn"
+          className="mt-5"
+          href={pdf}
+          target="_blank"
+          size='md'
+          >
+          <ion-icon name="download"/>
+            {'   '}
+          <p>Resume</p>
+        </Button>
       </div>
       </div>
   </div>

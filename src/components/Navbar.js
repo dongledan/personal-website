@@ -8,7 +8,13 @@ import './Navbar.css';
 export default function Navagation() {
   return (
     <Navbar class='mr-auto' bg='white' expand='lg' fixed='top'>
-      <Navbar.Brand href='#home'>Danny Li</Navbar.Brand>
+      <Navbar.Brand href='#home'>
+        <ion-icon 
+          name="business"
+          size="large"
+          class="logo"
+        />
+        Danny Li</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav" className = 'justify-content-end'>
         <Nav>
@@ -16,11 +22,9 @@ export default function Navagation() {
           <Nav.Link href='#about'>About</Nav.Link>
           <Nav.Link href='#projects'>Projects</Nav.Link>
           <NavDropdown title='Blog' id='collasible-nav-dropdown'>
-            <NavDropdown.Item>Coding Bootcamp</NavDropdown.Item>
+            <NavDropdown.Item>Posts</NavDropdown.Item>
             <NavDropdown.Divider />
-            <NavDropdown.Item>Powerlifting</NavDropdown.Item>
-            <NavDropdown.Divider />
-            <NavDropdown.Item>Hiking</NavDropdown.Item>
+            <NavDropdown.Item>Photos</NavDropdown.Item>
           </NavDropdown>
           <Nav.Link href='#contact'>Contact</Nav.Link>
         </Nav>
