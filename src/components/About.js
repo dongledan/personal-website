@@ -4,64 +4,83 @@ import linkedIn from '../assets/linkedIn.JPG';
 import powerlifting from '../assets/powerlifting.png';
 import hiking from '../assets/hiking.jpeg';
 import spartan from '../assets/spartan.JPG';
-import newYork from '../assets/new-york.jpg';
 import './styles.css';
 
 export default function About() {
   return (
   <div id='about' class='about'>
-    <h1>About Me</h1>
-    <Carousel interval='10000'>
-      <Carousel.Item>
-        <img
-          className="img"
-          src={linkedIn}
-          alt="First slide"
-        />
-        <Carousel.Caption>
-          <h3>Fullstack Software Engineer</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="img"
-          src={powerlifting}
-          alt="Second slide"
-        />
+    <h1 class='about-header'>About Me</h1>
+    <div class='container row mx-auto p-2 rounded w-90'>
+      <Carousel interval='10000' class='mt-1 col-6'>
+        <Carousel.Item>
+          <img
+            className="img"
+            src={linkedIn}
+            alt="First slide"
+          />
+          <Carousel.Caption>
+            <h3>Programmer</h3>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="img"
+            src={powerlifting}
+            alt="Second slide"
+          />
 
-        <Carousel.Caption>
-          <h3>Powerlifter</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="img"
-          src={newYork}
-          alt="Third slide"
-        />
+          <Carousel.Caption>
+            <h3>Powerlifter</h3>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="img"
+            src={hiking}
+            alt="Third slide"
+          />
 
-        <Carousel.Caption>
-          <h3>Avid Hiker</h3>
-          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="img"
-          src={spartan}
-          alt="Fourth slide"
-        />
+          <Carousel.Caption>
+            <h3>Hiker</h3>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="img"
+            src={spartan}
+            alt="Fourth slide"
+          />
 
-        <Carousel.Caption>
-          <h3>Spartan</h3>
-          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-    </Carousel>
+          <Carousel.Caption>
+            <h3>Spartan</h3>
+          </Carousel.Caption>
+        </Carousel.Item>
+      </Carousel>
+      <div class='col-lg-6 about-right'>
+        <p>I studied accounting and economics in Queens College 
+          and interned for a subsidiary of the IRS while 
+          I was working towards my CPA. Although I liked 
+          interacting with clients and my colleagues, I felt 
+          there was something missing. I was always interested 
+          in software engineering, but taking a Bootcamp Prep course 
+          through Fullstack Academy ignited my love for coding. I 
+          enjoy solving problems, debugging code, and applying 
+          knowledge to build tools. In the future, I hope to work 
+          for a mission-driven organization as a software engineer.
+        </p>
+        <p>When I am not debugging, you can find me at the gym or the 
+          outdoors getting into who knows what.
+        </p>
+        <p>Proficient:<br></br> Javascript, Node.js, Express.js, React.js, 
+        Redux.js, Sequelize, Axios, Git, HTML, CSS, PostgreSQL
+        </p>
+        <p>Familiar:<br></br> Material UI, Figma, Webpack, Mocha, Chai, Jasmine, 
+        Phaser, Bootstrap</p>
+        <p>Mediocre:<br></br> Singing, Dancing, Powerlifting</p>
+        <p>
+</p>
+      </div>
+      </div>
   </div>
-
-
   )
 }

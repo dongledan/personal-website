@@ -8,20 +8,21 @@
   background-attachment: fixed;
 }
 
+.container-header {
+  height: 100vh;
+}
 .title-header {
-  position: absolute;
-  top: 50%;
-  left: 35%;
+  position: relative;
+  top: 50vh;
+  left: 35vw;
   color: white;
   font-size: 3em;
-  height: 100vh;
 }
 
 .title-header-text {
-  position: absolute;
-  top: 56%;
-  left: 35%;
+  position: relative;
   color: white;
+  top: 50vh;
+  left: 27.8vw;
   font-size: 1.5em;
-  height: 100vh;
 }

@@ -1,0 +1,32 @@
+.navbar {
+  display: flex;
+  position: fixed;
+  align-content: center;
+  top: 0;
+  height: 50px;
+  width: 100%;
+}
+
+.nav {
+  position: fixed;
+  align-content: flex-end;
+  top: 1.5;
+  width: 100%
+}
+.nav-link {
+  font-size: 1.15em;
+}
+
+.nav-link:hover {
+  color: white;
+  font-weight: thin;
+  text-decoration: burlywood;
+  border-bottom: 1px solid black;
+}
+
+@media (min-width: 992px) {
+  .nav-link {
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+  }
+} 
