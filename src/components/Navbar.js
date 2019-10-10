@@ -26,7 +26,7 @@ export default function Navagation() {
             <NavDropdown.Divider />
             <NavDropdown.Item>Photos</NavDropdown.Item>
           </NavDropdown>
-          <Nav.Link href='#contact'>Contact</Nav.Link>
+          <Nav.Link href='mailto:dli0906@gmail.com' target='_blank'>Contact</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
