@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
+import './Footer.css';
 
 export default class Footer extends Component {
   render() {
     return (
-      <div className="Footer w-100 mt-3 mb-3">
+    <div className="Footer w-100 mt-6 mb-6">
       <div className="row m-auto">
         <div className="col-3 w-75">
           <h5>General</h5>
@@ -39,6 +40,9 @@ export default class Footer extends Component {
           </a>
           <a href="https://www.facebook.com/dongledan" target="_blank">
             <p>Facebook</p>
+          </a>
+          <a href="https://goo.gl/maps/33VPxoNA4vQpqLQD9" target="_blank">
+            <p>Google Reviews</p>
           </a>
         </div>
         <div className='col-3'>

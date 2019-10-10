@@ -12,7 +12,7 @@ export default function About() {
   return (
   <div id='about' class='about'>
     <h1 class='about-header'>About Me</h1>
-    <div class='container row mx-auto p-2 rounded w-90'>
+    <div class='container row mx-auto'>
       <Carousel interval='10000' class='mt-1 col-6' fade='true'>
         <Carousel.Item>
           <img
@@ -21,7 +21,7 @@ export default function About() {
             alt="First slide"
           />
           <Carousel.Caption>
-            <h3>Programmer</h3>
+            <h3 className='h3'>Programmer</h3>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -32,7 +32,7 @@ export default function About() {
           />
 
           <Carousel.Caption>
-            <h3>Powerlifter</h3>
+            <h3 className='h3'>Powerlifter</h3>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -43,7 +43,7 @@ export default function About() {
           />
 
           <Carousel.Caption>
-            <h3>Hiker</h3>
+            <h3 className='h3'>Hiker</h3>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -54,7 +54,7 @@ export default function About() {
           />
 
           <Carousel.Caption>
-            <h3>Spartan</h3>
+            <h3 className='h3'>Spartan</h3>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
@@ -83,7 +83,7 @@ export default function About() {
           variant="dark"
           id="resume-btn"
           className="mt-5"
-          href={pdf}
+          // href={pdf}
           target="_blank"
           size='md'
           >

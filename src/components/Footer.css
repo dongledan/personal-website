@@ -1,0 +1,11 @@
+a {
+  max-height: 50%;
+  position: relative;
+}
+
+.Footer {
+  width: 100%;
+  position: relative;
+  padding-bottom: 2.5em;
+  margin-top: 2em;
+}

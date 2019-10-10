@@ -9,20 +9,50 @@
 }
 
 .container-header {
-  height: 100vh;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .title-header {
   position: relative;
-  top: 50vh;
-  left: 35vw;
+  margin-left: 1.5em;
   color: white;
   font-size: 3em;
 }
 
 .title-header-text {
-  position: relative;
+  position: absolute;
+  top:90vh;
   color: white;
-  top: 50vh;
-  left: 27.8vw;
   font-size: 1.5em;
+}
+
+.arrow {
+  font-size: 16em; 
+  position: relative;
+  transform: translate(-50%, 100%);
+  animation: slideV2 6.0s;
+  color: snow;
+}
+
+.arrow:hover {
+  color: seashell;
+  /* background-color: black; */
+  cursor: pointer;
+}
+
+@keyframes slideV2 {
+  0% {
+    opacity: 0;
+  }
+  60% {
+    transform: translate(-50%, -80px);
+    opacity: 0;
+  }
+  90% {
+    transform: translate(-50%, 100%);
+    opacity: 1;
+  }
 }
