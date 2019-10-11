@@ -36,7 +36,7 @@ export default function Projects() {
             </Card.Text>
           </Card.Body>
           <Card.Footer>
-            <small className="text-muted">React, React-Redux, Express.js, Node.js, Stripe API, Material UI, Axios</small>
+            <small className="text-muted">React, React-Redux, Express.js, Node.js, Stripe API, Material UI, Axios, PostgreSQL</small>
           </Card.Footer>
         </Card>
         <Card>

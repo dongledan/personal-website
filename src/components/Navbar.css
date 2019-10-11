@@ -17,14 +17,13 @@
 } */
 .nav-link {
   font-size: 1.15em;
+  transition: 0.5 all;
+  color: #aaa;
 }
 
-/* .nav-link:hover {
-  color: white;
-  font-weight: thin;
-  text-decoration: burlywood;
-  border-bottom: 1px solid black;
-} */
+.nav-link:hover {
+  color: seashell;
+}
 
 @media (min-width: 600px) {
   .nav-link {
