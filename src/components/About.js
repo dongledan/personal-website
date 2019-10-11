@@ -7,6 +7,7 @@ import spartan from '../assets/spartan.JPG';
 import './About.css';
 import pdf from './Documents/Danny_Li_Resume.pdf';
 import Button from 'react-bootstrap/Button';
+import Image from 'react-bootstrap/Image'
 
 export default function About() {
   return (
@@ -15,20 +16,22 @@ export default function About() {
     <div class='container row mx-auto'>
       <Carousel interval='10000' class='mt-1 col-6' fade='true'>
         <Carousel.Item>
-          <img
+          <Image
             className="img"
             src={linkedIn}
             alt="First slide"
+            fluid
           />
           <Carousel.Caption>
             <h3 className='h3'>Programmer</h3>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img
+          <Image
             className="img"
             src={powerlifting}
             alt="Second slide"
+            fluid
           />
 
           <Carousel.Caption>
@@ -36,10 +39,11 @@ export default function About() {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img
+          <Image
             className="img"
             src={hiking}
             alt="Third slide"
+            fluid
           />
 
           <Carousel.Caption>
@@ -47,10 +51,11 @@ export default function About() {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img
+          <Image
             className="img"
             src={spartan}
             alt="Fourth slide"
+            fluid
           />
 
           <Carousel.Caption>

@@ -7,7 +7,7 @@ import './Navbar.css';
 
 export default function Navagation() {
   return (
-    <Navbar class='mr-auto' bg='white' expand='lg' fixed='top'>
+    <Navbar bg='white' expand='lg' fixed='top'>
       <Navbar.Brand href='#home'>
         <ion-icon 
           name="business"
@@ -17,14 +17,14 @@ export default function Navagation() {
         Danny Li</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav" className = 'justify-content-end'>
-        <Nav>
+        <Nav className='ml-auto'>
           <Nav.Link href='#home'>Home</Nav.Link>
           <Nav.Link href='#about'>About</Nav.Link>
           <Nav.Link href='#projects'>Projects</Nav.Link>
-          <NavDropdown title='Blog' id='collasible-nav-dropdown'>
+          <NavDropdown title='Blog' id='basic-nav-dropdown'>
             <NavDropdown.Item>Posts</NavDropdown.Item>
             <NavDropdown.Divider />
-            <NavDropdown.Item>Photos</NavDropdown.Item>
+            <NavDropdown.Item href='#blogphotos'>Photos</NavDropdown.Item>
           </NavDropdown>
           <Nav.Link href='mailto:dli0906@gmail.com' target='_blank'>Contact</Nav.Link>
         </Nav>

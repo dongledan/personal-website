@@ -7,7 +7,7 @@ import Button from 'react-bootstrap/Button';
 export default function Projects() {
   return (
     <div class='projects' id='projects'>
-      <h1>Projects</h1>
+      <h1 class='projects-header'>Projects</h1>
       <CardGroup>
         <Card>
           <Card.Img variant='top' src='https://i.imgur.com/EieTNhW.png' />
@@ -15,11 +15,11 @@ export default function Projects() {
             <Card.Title>SuperLike</Card.Title>
             <Card.Text>
               Social media has continued to have gotten bigger and bigger and allows
-              us have a bigger reach with people all over the world, however sometimes
+              us to have a bigger reach with people all over the world, however sometimes
               people are not who they say they are. SuperLike is a fun e-commerce website
-              for fake profiles used on dating apps. It features user carts, guest checkout,
-              products, user authenication, and more!
-              <br></br>
+              for fake profiles used on dating apps. We most definitely do not encourage catfishing,
+              but it was a lot of fun using pictures from our cohort as well as some of our instructors!
+              It features user carts, guest checkout, products, user authenication, and more!
               <br></br>
                 <Button
                   variant="dark"
