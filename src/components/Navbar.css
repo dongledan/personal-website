@@ -4,14 +4,12 @@
   align-content: center;
   top: 0;
   height: 60px;
-  width: 100%;
 }
 
 .nav {
   position: fixed;
   align-content: flex-end;
   top: 1.5;
-  width: 100%
 }
 .nav-link {
   font-size: 1.15em;
@@ -24,9 +22,9 @@
   border-bottom: 1px solid black;
 } */
 
-@media (min-width: 600px) {
+/* @media (min-width: 600px) {
   .nav-link {
     padding-left: 2rem !important;
     padding-right: 2rem !important;
   }
-} 
+}  */
