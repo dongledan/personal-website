@@ -47,7 +47,7 @@ export default class Footer extends Component {
         </div>
         <div className='col-3'>
           <a href='#home'>
-            <ion-icon name="arrow-up" size='large' />
+            <ion-icon name="arrow-up" size='large' className='arrow'/>
           </a>
         </div>
       </div>

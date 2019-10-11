@@ -5,6 +5,11 @@
   top: 0;
 }
 
+.logo-name {
+  display: flex;
+  align-items: center;
+}
+
 /* .nav {
   position: fixed;
   align-content: flex-end;

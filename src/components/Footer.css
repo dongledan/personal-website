@@ -1,11 +1,21 @@
 a {
   max-height: 50%;
   position: relative;
+  color: #aaa;
+  transition: 0.5s all;
 }
 
 .Footer {
   width: 100%;
+  padding-top:2em;
   position: relative;
   padding-bottom: 2.5em;
   margin-top: 2em;
+  background: #555;
+  color: white;
+}
+
+a:hover {
+  color: seashell;
+  text-decoration: none;
 }

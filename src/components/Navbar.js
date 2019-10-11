@@ -8,13 +8,14 @@ import './Navbar.css';
 export default function Navagation() {
   return (
     <Navbar bg='white' expand='lg' fixed='top'>
-      <Navbar.Brand href='#home'>
+      <Navbar.Brand href='#home' className='logo-name'>
         <ion-icon 
           name="business"
           size="large"
           class="logo"
         />
-        Danny Li</Navbar.Brand>
+        _Danny Li</Navbar.Brand>
+
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav" className = 'justify-content-end'>
         <Nav className='ml-auto'>
