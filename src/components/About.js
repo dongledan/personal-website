@@ -5,7 +5,7 @@ import powerlifting from '../assets/powerlifting.png';
 import hiking from '../assets/hiking.jpeg';
 import spartan from '../assets/spartan.JPG';
 import './About.css';
-import pdf from './Documents/Danny_Li_Resume.pdf';
+import pdf from './Documents/DannyLi_Resume.pdf';
 import Button from 'react-bootstrap/Button';
 import Image from 'react-bootstrap/Image'
 
@@ -91,7 +91,7 @@ export default function About() {
           variant="dark"
           id="resume-btn"
           className="mt-5"
-          // href={pdf}
+          href={pdf}
           target="_blank"
           size='md'
           >
