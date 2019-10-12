@@ -22,5 +22,7 @@ a:hover {
 
 .copyright {
   color: #aaa;
-  font-size: smaller
+  font-size: smaller;
+  position: relative;
+  bottom: -3em;
 }

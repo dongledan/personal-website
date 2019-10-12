@@ -52,7 +52,7 @@ export default class Footer extends Component {
         </div>
       </div>
       <div className='copyright'>
-        <p>© Danny Li. All Rights Reserved. pls hire me</p>
+        <p> Copyright © 2019 Danny Li. pls hire me</p>
       </div>
     </div>
     )
