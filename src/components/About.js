@@ -87,10 +87,11 @@ export default function About() {
         Phaser, Firebase, Google Vision</p>
         <h5>Mediocre:</h5>
         <p> Singing, Dancing, Powerlifting</p>
-        <Button
+      </div>
+      </div>
+      <Button
           variant="dark"
           id="resume-btn"
-          className="mt-5"
           href={pdf}
           target="_blank"
           size='md'
@@ -99,8 +100,6 @@ export default function About() {
             {'   '}
           <p>Resume</p>
         </Button>
-      </div>
-      </div>
   </div>
   )
 }

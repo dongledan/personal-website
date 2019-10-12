@@ -1,14 +1,14 @@
 .carousel {
   position: relative;
-  margin-top: 1em;
   display: flex;
-  width: 46.5%;
-  height: 46.5%;
+  width: 50%;
+  margin: auto;
 }
 
 .carousel-control-prev, .carousel-control-next {
   height: 1em;
   top: 50%;
+  bottom: auto;
 }
 
 .h3 {
@@ -18,11 +18,11 @@
 
 .about {
   position: relative;
-  margin-top: 1em;
+  margin: auto
 }
 
 .about-right {
-  margin: 0.1em 1em;
+  margin: auto;
   text-align: left;
 }
 
@@ -30,8 +30,8 @@
   display: inline-block;
   color: white;
   font-size: 1.2em;
-  margin-top: .80em;
-  margin-bottom: .90em;
+  margin-top: .40em;
+  margin-bottom: .50em;
   width: 5em;
   position: relative;
   left: 1%;
@@ -44,7 +44,7 @@
 }
 @media screen and (min-width: 1000px) {
   .about-right {
-    font-size: 19.3px;
+    font-size: 18px;
   }
 }
 
