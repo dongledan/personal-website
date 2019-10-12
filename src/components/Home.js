@@ -4,6 +4,7 @@ import Title from './Title';
 import About from './About';
 import Projects from './Projects';
 import Footer from './Footer';
+import BlogPhotos from './BlogPhotos';
 import './styles.css';
 
 export default class Home extends Component {
@@ -15,6 +16,7 @@ export default class Home extends Component {
           <Title />
           <About />
           <Projects />
+          <BlogPhotos />
           <Footer />
         </div>
       </div>

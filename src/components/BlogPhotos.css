@@ -1,0 +1,45 @@
+
+.container {
+  column-count: 4;
+  grid-gap: 2px;
+  width: 100%;
+  margin: auto;
+}
+
+.images {
+  height: 100%;
+  width: 100%;
+  margin-top: 2px;
+}
+
+.block {
+  display: inline-block;
+  width: 100%;
+ 
+}
+
+.block img {
+  filter: grayscale(100%);
+  transition: 4s;
+}
+
+.block img:hover {
+  filter: grayscale(0%);
+  transition: 0.5s;
+}
+
+@media screen and (max-width: 720px) {
+  
+  .container {
+    column-count: 2;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  
+  .container {
+    column-count: 1;
+    width: 80%;
+  }
+}

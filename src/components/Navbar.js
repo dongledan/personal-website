@@ -22,12 +22,13 @@ export default function Navagation() {
           <Nav.Link href='#home'>Home</Nav.Link>
           <Nav.Link href='#about'>About</Nav.Link>
           <Nav.Link href='#projects'>Projects</Nav.Link>
-          <NavDropdown title='Blog' id='basic-nav-dropdown'>
+          <Nav.Link href='#photos'>Photos</Nav.Link>
+          {/* <NavDropdown title='Blog' id='basic-nav-dropdown'>
             <NavDropdown.Item>Posts</NavDropdown.Item>
             <NavDropdown.Divider />
-            <NavDropdown.Item to='blogphotos'>Photos</NavDropdown.Item>
-          </NavDropdown>
-          <Nav.Link href='mailto:dli0906@gmail.com' target='_blank'>Contact</Nav.Link>
+            <NavDropdown.Item href='#photos'>Photos</NavDropdown.Item>
+          </NavDropdown> */}
+          <Nav.Link href='#footer'>Contact</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

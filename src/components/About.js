@@ -5,7 +5,7 @@ import powerlifting from '../assets/powerlifting.png';
 import hiking from '../assets/hiking.jpeg';
 import spartan from '../assets/spartan.JPG';
 import './About.css';
-import pdf from './Documents/DannyLi_Resume.pdf';
+import pdf from './documents/DannyLi_Resume.pdf';
 import Button from 'react-bootstrap/Button';
 import Image from 'react-bootstrap/Image'
 

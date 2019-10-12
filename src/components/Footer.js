@@ -4,7 +4,7 @@ import './Footer.css';
 export default class Footer extends Component {
   render() {
     return (
-    <div className="Footer w-100 mt-6 mb-6">
+    <div className="Footer w-100 mt-6 mb-6" id='footer'>
       <div className="row m-auto">
         <div className="col-3 w-75">
           <h5>General</h5>
@@ -17,8 +17,8 @@ export default class Footer extends Component {
           <a href="#projects">
             <p>Projects</p>
           </a>
-          <a href='#blog'>
-            <p>Blog</p>
+          <a href='#photos'>
+            <p>Photos</p>
           </a>
           <a href='mailto:dli0906@gmail.com'>
             <p>Contact</p>

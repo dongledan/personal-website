@@ -32,9 +32,8 @@
 
 .header-text-2 {
   position: relative;
-  font-size: 2.1em;
   font-weight: bold;
-  letter-spacing: 3px;
+  letter-spacing: 0.1em;
   animation: fadeIn2 8.5s;
   z-index: -1;
   color: white;
@@ -60,6 +59,17 @@ hr {
   color: white;
 }
 
+@media screen and (min-width: 320px) {
+  .header-text-2 {
+    font-size: calc(32px + 6 * ((100vw - 320px) / 680));
+  }
+}
+@media screen and (min-width: 1000px) {
+  .header-text-2 {
+    font-size: 100px;
+  }
+}
+
 .arrow {
   font-size: 4em; 
   position: absolute;
@@ -75,6 +85,12 @@ hr {
   color: seashell;
   /* background-color: black; */
   cursor: pointer;
+}
+
+@media screen and (min-width: 600px) {
+  header-text-2 {
+    font-size: 2.1em
+  }
 }
 
 @keyframes fadeIn {
@@ -102,7 +118,7 @@ hr {
   }
   60% {
     opacity: 0;
-  }
+  } 
   100% {
     opacity: 1;
   }
