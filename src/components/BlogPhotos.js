@@ -15,7 +15,7 @@ export default class BlogPhotos extends Component {
         <div class='photos container'>
           {arizona.map(image => (
             <div class='block'>
-              <img src={image} className='images' data-aos='fade-up'/>
+              <img src={image} className='images' data-aos='fade'/>
             </div>
           ))}
         </div>
