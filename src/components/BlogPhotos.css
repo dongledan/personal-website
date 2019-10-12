@@ -22,12 +22,12 @@
 
 .block img {
   filter: grayscale(100%);
-  transition: 4s;
+  transition: 4s !important;
 }
 
 .block img:hover {
   filter: grayscale(0%);
-  transition: 0.6s;
+  transition: 0.6s !important;
 }
 
 @media screen and (max-width: 720px) {

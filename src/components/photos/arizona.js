@@ -5,7 +5,7 @@ const arizona = [
   'https://i.imgur.com/oCGgNv4.jpg',
   'https://i.imgur.com/9qf7DZQ.jpg',
   'https://i.imgur.com/XBx01eI.jpg',
-  'https://i.imgur.com/jD6LIfJ.jpg',
+  'https://i.imgur.com/m5N2h9Q.jpg',
   'https://i.imgur.com/XA3OFr2.jpg',
 
 

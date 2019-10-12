@@ -11,11 +11,11 @@ export default function Projects() {
     <div class='projects' id='projects'>
       <h1 class='projects-header' data-aos='fade-up'>Projects</h1>
       <CardGroup>
-        <Card data-aos='fade-up-right'>
-          <Card.Img variant='top' src='https://i.imgur.com/EieTNhW.png' />
+        <Card >
+          <Card.Img variant='top' src='https://i.imgur.com/EieTNhW.png' data-aos='fade-right'/>
           <Card.Body>
-            <Card.Title>SuperLike</Card.Title>
-            <Card.Text>
+            <Card.Title data-aos='fade-right'>SuperLike</Card.Title>
+            <Card.Text data-aos='fade-right'>
               Social media has continued to have gotten bigger and bigger and allows
               us to have a bigger reach with people all over the world, however sometimes
               people are not who they say they are. SuperLike is a fun e-commerce website
@@ -30,6 +30,7 @@ export default function Projects() {
                   href='https://github.com/barrysmagnificantfireflies/Superlike'
                   target="_blank"
                   size='md'
+                  data-aos='fade-right'
                   >
                 <ion-icon name="logo-github"/>
                   {'   '}
@@ -37,15 +38,15 @@ export default function Projects() {
         </Button>
             </Card.Text>
           </Card.Body>
-          <Card.Footer>
+          <Card.Footer data-aos='fade-right'>
             <small className="text-muted">React, React-Redux, Express.js, Node.js, Stripe API, Material UI, Axios, PostgreSQL</small>
           </Card.Footer>
         </Card>
-        <Card data-aos='fade-up-left'>
-          <Card.Img variant='top' src='https://i.imgur.com/29P4NcO.png' />
+        <Card>
+          <Card.Img variant='top' src='https://i.imgur.com/29P4NcO.png' data-aos='fade-left' />
           <Card.Body>
-            <Card.Title>MTALens</Card.Title>
-            <Card.Text>
+            <Card.Title data-aos='fade-left'>MTALens</Card.Title>
+            <Card.Text data-aos='fade-left'>
               We've all been burned by the MTA before. It is nice knowing when the next train is coming for the peace of mind,
               but sometimes the train countdown sign is on the opposite side of the platform or even worse-- broken. With MTALens,
               all you have to do is point and shoot to see the next upcoming trains as well as being able to alert or view if
@@ -59,6 +60,7 @@ export default function Projects() {
                   href='https://github.com/1906-fsa-foxs-flames/capstone'
                   target="_blank"
                   size='md'
+                  data-aos='fade-left'
                   >
                   <ion-icon name="logo-github"/>
                   {'   '}
@@ -66,7 +68,7 @@ export default function Projects() {
                 </Button>
             </Card.Text>
           </Card.Body>
-          <Card.Footer>
+          <Card.Footer data-aos='fade-left'>
             <small className="text-muted">React Native, Firebase, Google Vision, MTA API, Expo</small>
           </Card.Footer>
         </Card>
