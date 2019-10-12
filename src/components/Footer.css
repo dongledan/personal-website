@@ -1,4 +1,4 @@
-a, .copyright {
+a {
   max-height: 50%;
   position: relative;
   color: #aaa;
@@ -18,4 +18,9 @@ a, .copyright {
 a:hover {
   color: seashell;
   text-decoration: none;
+}
+
+.copyright {
+  color: #aaa;
+  font-size: smaller
 }
