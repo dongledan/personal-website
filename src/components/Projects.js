@@ -3,13 +3,15 @@ import './styles.css';
 import CardGroup from 'react-bootstrap/CardGroup';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default function Projects() {
   return (
     <div class='projects' id='projects'>
-      <h1 class='projects-header'>Projects</h1>
+      <h1 class='projects-header' data-aos='fade-up'>Projects</h1>
       <CardGroup>
-        <Card>
+        <Card data-aos='fade-up-right'>
           <Card.Img variant='top' src='https://i.imgur.com/EieTNhW.png' />
           <Card.Body>
             <Card.Title>SuperLike</Card.Title>
@@ -39,7 +41,7 @@ export default function Projects() {
             <small className="text-muted">React, React-Redux, Express.js, Node.js, Stripe API, Material UI, Axios, PostgreSQL</small>
           </Card.Footer>
         </Card>
-        <Card>
+        <Card data-aos='fade-up-left'>
           <Card.Img variant='top' src='https://i.imgur.com/29P4NcO.png' />
           <Card.Body>
             <Card.Title>MTALens</Card.Title>

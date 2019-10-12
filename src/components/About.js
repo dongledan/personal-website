@@ -7,13 +7,18 @@ import spartan from '../assets/spartan.JPG';
 import './About.css';
 import pdf from './Documents/DannyLi_Resume.pdf';
 import Button from 'react-bootstrap/Button';
-import Image from 'react-bootstrap/Image'
+import Image from 'react-bootstrap/Image';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default function About() {
+  AOS.init({
+    duration: 2500
+  });
   return (
   <div id='about' class='about'>
-    <h1 class='about-header'>About Me</h1>
-    <div class='container row mx-auto'>
+    <h1 class='about-header' data-aos='fade-up'>About Me</h1>
+    <div class='container row mx-auto' data-aos='fade-up-right'>
       <Carousel interval='10000' class='mt-1 col-6' fade='true'>
         <Carousel.Item>
           <Image
@@ -63,8 +68,8 @@ export default function About() {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
-      <div class='col-lg-6 about-right'>
-        <p>I studied accounting and economics in Queens College 
+      <div class='col-lg-6 about-right' >
+        <p data-aos='fade-up-left'>I studied accounting and economics in Queens College 
           and interned for a subsidiary of the IRS while 
           I was working towards my CPA. Although I liked 
           interacting with clients and my colleagues, I felt 
@@ -75,18 +80,18 @@ export default function About() {
           knowledge to build tools. In the future, I hope to work 
           for a mission-driven organization as a software engineer.
         </p>
-        <p>When I am not debugging, you can find me at the gym or the 
+        <p data-aos='fade-up-left'>When I am not debugging, you can find me at the gym or the 
           outdoors getting into who knows what.
         </p>
-        <h5>Proficient: </h5>
-        <p>Javascript, Node.js, Express.js, React.js, 
+        <h5 data-aos='fade-up-left'>Proficient: </h5>
+        <p data-aos='fade-up-left'>Javascript, Node.js, Express.js, React.js, 
         Redux.js, Sequelize, Axios, Git, HTML, CSS, PostgreSQL, Bootstrap
         </p>
-        <h5>Familiar:</h5>
-        <p> Material UI, Figma, Webpack, Mocha, Chai, Jasmine, 
+        <h5 data-aos='fade-up-left'>Familiar:</h5>
+        <p data-aos='fade-up-left'> Material UI, Figma, Webpack, Mocha, Chai, Jasmine, 
         Phaser, Firebase, Google Vision</p>
-        <h5>Mediocre:</h5>
-        <p> Singing, Dancing, Powerlifting</p>
+        <h5 data-aos='fade-up-left'>Mediocre:</h5>
+        <p data-aos='fade-up-left'> Singing, Dancing, Powerlifting</p>
       </div>
       </div>
       <Button
@@ -95,6 +100,7 @@ export default function About() {
           href={pdf}
           target="_blank"
           size='md'
+          data-aos='fade-up'
           >
           <ion-icon name="download"/>
             {'   '}

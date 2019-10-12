@@ -5,7 +5,7 @@ import Image from 'react-bootstrap/Image';
 export default function Title() {
   return (
     <div class='home'>
-      <Image src='https://i.imgur.com/kFgNiK6.jpg' fluid />
+      <Image src='https://i.imgur.com/kFgNiK6.jpg' fluid data-aos='fade-down'/>
       <div class='container-header'>
         <h3 class='lead header-text'>Welcome to my site!</h3>
         <h3 class='lead header-text-2'>Danny Li</h3>
