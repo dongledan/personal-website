@@ -45,11 +45,11 @@ export default function Projects() {
           <Card.Body>
             <Card.Title>MTALens</Card.Title>
             <Card.Text>
-              We've all been burned by the MTA before. It is nice knowing when the next train is coming for the peace of mind,
-              but sometimes the train countdown sign is on the opposite side of the platform or even worse-- broken. With MTALens,
-              all you have to do is point and shoot to see the next upcoming trains as well as being able to alert or view if
-              trains are crowded through our platform. The app uses OCR from google vision and feeds it into realtime firebase and also
-              uses the MTA API feed for up to the date alerts.
+              We've all been burned by the MTA before. It's nice knowing when the next train is coming or delayed,
+              but sometimes the train countdown sign is nowhere in sight or broken. With MTALens, all you have to do is point 
+              and shoot to see the next upcoming trains as well as being able to alert or view if
+              trains are crowded through our platform. The app uses OCR from google vision and feeds it into realtime firebase and
+              the MTA API feed for up to the date alerts.
               <br></br>
                 <Button
                   variant="dark"
