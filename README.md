@@ -29,7 +29,7 @@ Project is created with:
 ## Features
 * Dynamic scaling between Mobile and Desktop versions -- looks great on both!
 * Crisp, smooth animations
-* Smooth scrolling (Only on desktops browsers not named IE)
+* Smooth scrolling (Only on desktop browsers not named IE)
 * Nice pleasing images to look at
 * Modern, fluid UI
 
@@ -37,6 +37,7 @@ Project is created with:
 * Currently deployed on heroku -- Going to connect hosting heroku with a shorter, clean domain name
 * Add a blog section -- Articles include: My experiences with Bootcamp
 * Optimizing for slower bandwidth
+* Add custom animations
 * & More!
 
 ## Author
@@ -46,4 +47,4 @@ Project is created with:
 * TODO
 
 ## Closing Statement
-Thank you for taking the time to check it out! For the final result check it out [here](https://danny-li-website.herokuapp.com/).
+Thank you for taking the time to look through my github! For the final result check it out [here](https://danny-li-website.herokuapp.com/).
