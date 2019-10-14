@@ -14,18 +14,18 @@
   margin-top: 2px;
 }
 
-.block {
+.photo {
   display: inline-block;
   width: 100%;
  
 }
 
-.block img {
+.photo img {
   filter: grayscale(100%);
   transition: 4s !important;
 }
 
-.block img:hover {
+.photo img:hover {
   filter: grayscale(0%);
   transition: 0.6s !important;
 }
