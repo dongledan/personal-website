@@ -40,10 +40,10 @@ Project is created with:
 * & More!
 
 ## Author
-* Danny L.(https://www.linkedin.com/in/d-li/)
+* [Danny L.](https://www.linkedin.com/in/d-li/)
 
 ## Acknowledgements
 * TODO
 
 ## Closing Statement
-Thank you for taking the time to check it out! For the final result check it out here(https://danny-li-website.herokuapp.com/).
+Thank you for taking the time to check it out! For the final result check it out [here](https://danny-li-website.herokuapp.com/).
