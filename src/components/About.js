@@ -91,17 +91,18 @@ export default function About() {
       </div>
       </div>
       <Button
-          variant="dark"
-          id="resume-btn"
-          href={pdf}
-          target="_blank"
-          size='md'
-          data-aos='fade-up'
-          >
-          <ion-icon name="download"/>
-            {'   '}
-          <p>Resume</p>
-        </Button>
+        variant="dark"
+        id="resume-btn"
+        href={pdf}
+        target="_blank"
+        rel="noopener noreferrer"
+        size='md'
+        data-aos='fade-up'
+      >
+        <ion-icon name="download" id='ion-resume'/>
+          {'   '}
+        <p>Resume</p>
+      </Button>
   </div>
   )
 }

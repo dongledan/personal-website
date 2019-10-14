@@ -8,12 +8,9 @@ export default function Navagation() {
   return (
     <Navbar bg='white' expand='lg' fixed='top'>
       <Navbar.Brand href='#home' className='logo-name'>
-        <ion-icon 
-          name="business"
-          size="large"
-          class="logo"
-        />
-        _Danny Li</Navbar.Brand>
+        <img src='https://i.imgur.com/nbAqVew.jpg' className='img-logo' alt='close up of my face in windows logo'/>
+        Danny
+      </Navbar.Brand>
 
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav" className = 'justify-content-end'>

@@ -26,22 +26,42 @@ export default class Footer extends Component {
         </div>
         <div className="col-3 w-75">
           <h5>Connect</h5>
-          <a href="https://github.com/dongledan" target="_blank">
+          <a 
+            href="https://github.com/dongledan"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <p>GitHub</p>
           </a>
-          <a href="https://www.linkedin.com/in/d-li//" target="_blank">
+          <a 
+            href="https://www.linkedin.com/in/d-li/" 
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <p>LinkedIn</p>
           </a>
         </div>
         <div className="col-3 w-75">
           <h5>Social</h5>
-          <a href="https://www.instagram.com/dli.ft/" target="_blank">
+          <a 
+            href="https://www.instagram.com/dli.ft/" 
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <p>Instagram</p>
           </a>
-          <a href="https://www.facebook.com/dongledan" target="_blank">
+          <a 
+            href="https://www.facebook.com/dongledan" 
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <p>Facebook</p>
           </a>
-          <a href="https://goo.gl/maps/33VPxoNA4vQpqLQD9" target="_blank">
+          <a 
+            href="https://goo.gl/maps/33VPxoNA4vQpqLQD9" 
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <p>Google Reviews</p>
           </a>
         </div>

@@ -11,6 +11,11 @@
   align-items: center;
 }
 
+.img-logo {
+  height: 1.5em;
+  padding-right: 5%;
+}
+
 /* .nav {
   position: fixed;
   align-content: flex-end;

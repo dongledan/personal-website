@@ -27,9 +27,10 @@ export default function Projects() {
                   className="mt-5"
                   href='https://github.com/barrysmagnificantfireflies/Superlike'
                   target="_blank"
+                  rel="noopener noreferrer"
                   size='md'
                   >
-                <ion-icon name="logo-github" />
+                <ion-icon name="logo-github" id='ion-resume' />
                   {'   '}
           <p>View</p>
         </Button>
@@ -56,9 +57,10 @@ export default function Projects() {
                   className="mt-5"
                   href='https://github.com/1906-fsa-foxs-flames/capstone'
                   target="_blank"
+                  rel="noopener noreferrer"
                   size='md'
                   >
-                  <ion-icon name="logo-github" />
+                  <ion-icon name="logo-github" id='ion-resume' />
                   {'   '}
                   <p>View</p>
                 </Button>

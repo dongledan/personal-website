@@ -10,7 +10,7 @@ export default class BlogPhotos extends Component {
         <div class='photos container'>
           {images.map(image => (
             <div class='block'>
-              <img src={image} className='images' data-aos='fade' />
+              <img src={image} className='images' data-aos='fade' alt='pictures of my travels taken on my iPhone'/>
             </div>
           ))}
         </div>
