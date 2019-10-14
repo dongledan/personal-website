@@ -5,7 +5,7 @@ export default class Footer extends Component {
   render() {
     return (
     <div className="Footer w-100 mt-6 mb-6" id='footer'>
-      <div className="row m-auto" data-aos='fade-up'>
+      <div className="row m-auto" >
         <div className="col-3 w-75">
           <h5>General</h5>
           <a href="#home">

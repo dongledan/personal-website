@@ -13,13 +13,13 @@ import 'aos/dist/aos.css';
 
 export default function About() {
   AOS.init({
-    duration: 2500
+    duration: 1300
   });
   return (
   <div id='about' class='about'>
-    <h1 class='about-header' data-aos='fade-up'>About Me</h1>
+    <h1 class='about-header' data-aos='fade'>About Me</h1>
     <div class='container row mx-auto' data-aos='fade-up-right'>
-      <Carousel interval='10000' class='mt-1 col-6' fade='true'>
+      <Carousel interval='8000' class='mt-1 col-6' fade='true'>
         <Carousel.Item>
           <Image
             className="img"
