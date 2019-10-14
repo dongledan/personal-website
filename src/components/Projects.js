@@ -10,7 +10,7 @@ export default function Projects() {
       <h1 class='projects-header' data-aos='fade'>Projects</h1>
       <CardGroup>
         <Card data-aos='fade-up-right'>
-          <Card.Img variant='top' src='https://i.imgur.com/EieTNhW.png' data-aos='fade-up-right' className='card-img'/>
+          <Card.Img variant='top' src='https://i.imgur.com/hIetqAS.png' data-aos='fade-up-right' className='card-img'/>
           <Card.Body>
             <Card.Title>SuperLike</Card.Title>
             <Card.Text >
@@ -40,7 +40,7 @@ export default function Projects() {
           </Card.Footer>
         </Card>
         <Card data-aos='fade-up-left'>
-          <Card.Img variant='top' src='https://i.imgur.com/29P4NcO.png'/>
+          <Card.Img variant='top' src='https://i.imgur.com/qbx9PKt.png'/>
           <Card.Body>
             <Card.Title>MTALens</Card.Title>
             <Card.Text>

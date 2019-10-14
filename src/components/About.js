@@ -1,9 +1,5 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import linkedIn from '../assets/linkedIn.JPG';
-import powerlifting from '../assets/powerlifting.png';
-import hiking from '../assets/hiking.jpeg';
-import spartan from '../assets/spartan.JPG';
 import './About.css';
 import pdf from './Documents/DannyLi_Resume.pdf';
 import Button from 'react-bootstrap/Button';
@@ -23,7 +19,7 @@ export default function About() {
         <Carousel.Item>
           <Image
             className="img"
-            src={linkedIn}
+            src='https://i.imgur.com/FBKuSsX.jpg'
             alt="First slide"
             fluid
           />
@@ -34,7 +30,7 @@ export default function About() {
         <Carousel.Item>
           <Image
             className="img"
-            src={powerlifting}
+            src='https://i.imgur.com/Kij6xVe.png'
             alt="Second slide"
             fluid
           />
@@ -46,7 +42,7 @@ export default function About() {
         <Carousel.Item>
           <Image
             className="img"
-            src={hiking}
+            src='https://i.imgur.com/qthifkc.jpg'
             alt="Third slide"
             fluid
           />
@@ -58,7 +54,7 @@ export default function About() {
         <Carousel.Item>
           <Image
             className="img"
-            src={spartan}
+            src='https://i.imgur.com/ERH5VG2.jpg'
             alt="Fourth slide"
             fluid
           />
