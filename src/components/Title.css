@@ -128,7 +128,7 @@ hr {
     opacity: 0;
   }
   60% {
-    transform: translate(-50%, -80px);
+    transform: translate(-50%, -80%);
     opacity: 0;
   }
   100% {
