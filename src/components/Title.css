@@ -79,7 +79,7 @@ hr {
 .arrow {
   position: absolute;
   bottom: -0.1em;
-  transform: translate(-50%, 100%);
+  transform: translate(-50%, 100%) !important; 
   animation: 
     slideDown 10s,
     bounce 8s 10s;
