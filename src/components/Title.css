@@ -79,7 +79,7 @@ hr {
 .arrow {
   position: absolute;
   bottom: -0.1em;
-  transform: translate(-50%, 100%) !important; 
+  transform: translate(-50%, 100%);
   animation: 
     slideDown 10s,
     bounce 8s 10s;
@@ -88,23 +88,17 @@ hr {
 
 .arrow:hover {
   color: seashell;
-  /* background-color: black; */
   cursor: pointer;
 }
 
 @keyframes fadeIn {
   0% {
-    /* transform: translateY(-60px); */
-    opacity: 0;
-  }
-  15% {
     opacity: 0;
   }
   50% {
     opacity: 1
   }
   100% {
-    /* transform: translateY(0); */
     opacity: 0;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
@@ -115,7 +109,7 @@ hr {
   0% {
     opacity: 0;
   }
-  60% {
+  70% {
     opacity: 0;
   } 
   100% {
@@ -127,26 +121,12 @@ hr {
   0% {
     opacity: 0;
   }
-  60% {
-    transform: translate(-50%, -80%);
+  70% {
+    transform: translate(-50%, -70%);
     opacity: 0;
   }
   100% {
     transform: translate(-50%, 100%);
-    opacity: 1;
-  }
-}
-
-@keyframes slideUp {
-  0% {
-    opacity: 0;
-  }
-  60% {
-    transform: translate(-50%, 100px);
-    opacity: 0;
-  }
-  100% {
-    transform: translate(-50%, -80%);
     opacity: 1;
   }
 }
@@ -159,7 +139,7 @@ hr {
   100% {
      transform: translate(-50%, 100%);
   }
-  40% {
-     transform: translate(-50%, 80%);
+  50% {
+     transform: translate(-50%, 70%);
   }
 }
