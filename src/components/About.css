@@ -48,6 +48,7 @@
 @media screen and (min-width: 320px) {
   .about-right {
     font-size: calc(13px + 6 * ((100vw - 320px) / 680));
+    margin-top: 2em;
   }
 }
 @media screen and (min-width: 1000px) {
@@ -57,14 +58,6 @@
 }
 
 @media screen and (max-width: 600px) {
-  /* #about img{
-    position: relative;
-    width: 100%;
-    height: 84%;
-    margin-left: 5%;
-    transform: translateY(-1%);
-  } */
-
   .row{
     justify-content: center;
   }
