@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Pigeon() {
   return (
-    <div data-aos='fade'>
+    <div>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         xmlnsXlink="http://www.w3.org/1999/xlink"
