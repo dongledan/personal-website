@@ -82,7 +82,7 @@ hr {
   bottom: -0.1em;
   transform: translate(-50%, 100%);
   animation: 
-    slideDown 20s; 
+    fadeIn2 9.5s; 
   color: snow;
 }
 
@@ -117,32 +117,17 @@ hr {
   }
 }
 
-@keyframes slideDown {
-	0% {
-    transform: translate(-50%, 0%);
+/* @keyframes slideDown {
+  0% {
+    transform: translate(-50%, -80px);
     opacity: 0;
   }
-  25% {
-    transform: translate(-50%, 54%);
+  70% {
+    transform: translate(-50%, -80px);
     opacity: 0;
   }
-  35% {
-    transform: translate(-50%, 64.8%);
-    opacity: 0%;
-  }
-	50%{
-    transform: translate(-50%, 108%);
-	}
-	65%{
-		transform: translate(-50%, 96%);
-	}
-	80%{
-		transform: translate(-50%, 104%);
-	}
-	95%{
-		transform: translate(-50%, 98%);
-	}			
-	100% {
+  100% {
     transform: translate(-50%, 100%);
-	}		
-}
+    opacity: 1;
+  }
+} */
