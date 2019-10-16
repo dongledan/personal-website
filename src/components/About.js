@@ -90,19 +90,19 @@ export default function About() {
         <p data-aos='fade-up-left'> Singing, Dancing, Powerlifting</p>
       </div>
       </div>
-      <Button
-        variant="light"
-        id="resume-btn"
-        href={pdf}
-        target="_blank"
-        rel="noopener noreferrer"
-        size='md'
-        data-aos='fade-up'
-      >
-        <ion-icon name="download" id='ion-resume'/>
-          {'   '}
-        <p>Resume</p>
-      </Button>
+      <div>
+        <a 
+          href={pdf} 
+          target='_blank' 
+          rel='noopener noreferrer'
+          >
+          <div class="btn btn-resume" data-aos='fade-up'>
+            <ion-icon name="download" id='ion-resume'/>
+              {'   '}
+            <span>Resume</span>
+          </div>
+          </a>
+      </div>
   </div>
   )
 }

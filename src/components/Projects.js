@@ -21,19 +21,19 @@ export default function Projects() {
               but it was a lot of fun using pictures from our cohort as well as some of our instructors!
               It features user carts, guest checkout, products, user authenication, and more!
               <br></br>
-              <Button
-                variant="light"
-                id="resume-btn"
-                className="mt-5"
-                href='https://github.com/barrysmagnificantfireflies/Superlike'
-                target="_blank"
-                rel="noopener noreferrer"
-                size='md'
-                >
-                <ion-icon name="logo-github" id='ion-resume' />
-                {'   '}
-                <p>View</p>
-              </Button>
+              <div>
+                <a 
+                  href='https://github.com/barrysmagnificantfireflies/Superlike'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  >
+                  <div class="btn btn-resume">
+                    <ion-icon name="logo-github" id='ion-resume'/>
+                      {'   '}
+                    <span>View</span>
+                  </div>
+                  </a>
+              </div>
             </Card.Text>
           </Card.Body>
           <Card.Footer>
@@ -51,19 +51,19 @@ export default function Projects() {
               trains are crowded through our platform. The app uses OCR from google vision and feeds it into realtime firebase and
               the MTA API feed for up to the date alerts.
               <br></br>
-              <Button
-                variant="light"
-                id="resume-btn"
-                className="mt-5"
-                href='https://github.com/1906-fsa-foxs-flames/capstone'
-                target="_blank"
-                rel="noopener noreferrer"
-                size='md'
-                >
-                  <ion-icon name="logo-github" id='ion-resume' />
-                  {'   '}
-                  <p>View</p>
-              </Button>
+              <div>
+                <a 
+                  href='https://github.com/1906-fsa-foxs-flames/capstone'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  >
+                  <div class="btn btn-resume">
+                    <ion-icon name="logo-github" id='ion-resume'/>
+                      {'   '}
+                    <span>View</span>
+                  </div>
+                  </a>
+              </div>
             </Card.Text>
           </Card.Body>
           <Card.Footer>
