@@ -49,7 +49,7 @@ export default function Projects() {
               but sometimes the train countdown sign is nowhere in sight or broken. With MTALens, all you have to do is point 
               and shoot to see the next upcoming trains as well as being able to alert or view if
               trains are crowded through our platform. The app uses OCR from google vision and feeds it into realtime firebase and
-              the MTA API feed for up to the date alerts.
+              the MTA API feed for up to the date alerts. Don't be late again!
               <br></br>
               <div>
                 <a 
