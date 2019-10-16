@@ -2,7 +2,6 @@ import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import './About.css';
 import pdf from './Documents/DannyLi_Resume.pdf';
-import Button from 'react-bootstrap/Button';
 import Image from 'react-bootstrap/Image';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
