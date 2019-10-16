@@ -9,7 +9,7 @@ export default function Projects() {
     <div class='projects' id='projects'>
       <h1 class='projects-header' data-aos='fade'>Projects</h1>
       <CardGroup>
-        <Card data-aos='fade-up-right'>
+        <Card data-aos='fade-up-right' className='card'>
           <Card.Img variant='top' src='https://i.imgur.com/hIetqAS.png' data-aos='fade-up-right' className='card-img'/>
           <Card.Body>
             <Card.Title>SuperLike</Card.Title>
@@ -22,7 +22,7 @@ export default function Projects() {
               It features user carts, guest checkout, products, user authenication, and more!
               <br></br>
               <Button
-                variant="dark"
+                variant="light"
                 id="resume-btn"
                 className="mt-5"
                 href='https://github.com/barrysmagnificantfireflies/Superlike'
@@ -37,7 +37,7 @@ export default function Projects() {
             </Card.Text>
           </Card.Body>
           <Card.Footer>
-            <small className="text-muted">React, React-Redux, Express.js, Node.js, Stripe API, Material UI, Axios, PostgreSQL</small>
+            <small className='card-footer'>React, React-Redux, Express.js, Node.js, Stripe API, Material UI, Axios, PostgreSQL</small>
           </Card.Footer>
         </Card>
         <Card data-aos='fade-up-left'>
@@ -52,7 +52,7 @@ export default function Projects() {
               the MTA API feed for up to the date alerts.
               <br></br>
               <Button
-                variant="dark"
+                variant="light"
                 id="resume-btn"
                 className="mt-5"
                 href='https://github.com/1906-fsa-foxs-flames/capstone'
@@ -67,7 +67,7 @@ export default function Projects() {
             </Card.Text>
           </Card.Body>
           <Card.Footer>
-            <small className="text-muted">React Native, Firebase, Google Vision, MTA API, Expo</small>
+            <small className='card-footer'>React Native, Firebase, Google Vision, MTA API, Expo</small>
           </Card.Footer>
         </Card>
       </CardGroup>
