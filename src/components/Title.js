@@ -12,7 +12,7 @@ export default function Title() {
         <hr class='line'></hr>
         <h3 class='lead header-text-3'>Software Engineer</h3>
         <a href='#about'>
-          <ion-icon name="arrow-down" class='arrow' />
+          <ion-icon name="arrow-down" class='arrow slideDown' />
         </a>
       </div>
     </div>
