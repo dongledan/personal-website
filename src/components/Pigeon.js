@@ -1,9 +1,8 @@
 import React from 'react';
-import './Pigeon.css';
 
 export default function Pigeon() {
   return (
-    <div className='pigeon-bg'>
+    <div data-aos='fade'>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         xmlnsXlink="http://www.w3.org/1999/xlink"
