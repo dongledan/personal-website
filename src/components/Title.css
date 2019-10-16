@@ -1,4 +1,4 @@
-.home {
+/* .home {
   display: flex;
   height: 100vh;
   background-image: url('https://i.imgur.com/kFgNiK6.jpg');
@@ -6,13 +6,12 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-}
-/* .home{
+} */
+.home{
   display: flex;
   position: relative;
-  max-height: 100vh;
-} */
-
+  height: 100%;
+}
 
 .container-header{
   position: absolute;
