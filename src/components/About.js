@@ -91,7 +91,7 @@ export default function About() {
       </div>
       </div>
       <Button
-        variant="dark"
+        variant="light"
         id="resume-btn"
         href={pdf}
         target="_blank"

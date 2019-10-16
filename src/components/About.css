@@ -18,17 +18,20 @@
 
 .about {
   position: relative;
-  margin: auto
+  margin: auto;
+  margin-top: 3em;
 }
 
 .about-right {
   margin: auto;
   text-align: left;
+  color: white;
+  mix-blend-mode: luminosity;
 }
 
 #resume-btn p {
   display: inline-block;
-  color: white;
+  color: black;
   font-size: 1.2em;
   margin-top: .40em;
   margin-bottom: .50em;

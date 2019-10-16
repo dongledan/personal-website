@@ -15,3 +15,12 @@
   margin-bottom: 1em;
   margin-top: 2em;
 }
+
+.card {
+  background-color: #404040;
+  color: white;
+}
+
+.card-footer {
+  color: #e6e6e6
+}
