@@ -32,9 +32,9 @@ Project is created with:
 * Smooth scrolling (Only on desktop browsers not named IE)
 * Nice pleasing images to look at
 * Modern, fluid UI
+* Single page application
 
 ## What's Next
-* Currently deployed on heroku -- Going to connect hosting heroku with a shorter, clean domain name
 * Add a blog section -- Articles include: My experiences with Bootcamp
 * Optimizing for slower bandwidth
 * Add custom animations
