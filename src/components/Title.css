@@ -99,8 +99,9 @@ hr {
 }
 
 .a {
-  position: relative;
+  position: absolute;
   animation: fadeIn2 9.5s;
+  transform: translate(-50%, 7%) !important;
 }
 
 @keyframes occasional-arrow-bounce {

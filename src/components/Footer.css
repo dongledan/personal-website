@@ -29,8 +29,7 @@ a:hover {
 
 .b {
   position: absolute;
-  left: 30%;
-  top: -3%
+  transform: translate(-50%, 4%);
 }
 
 .b:after {
