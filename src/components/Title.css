@@ -64,9 +64,6 @@ hr {
   .header-text-2 {
     font-size: calc(32px + 6 * ((100vw - 320px) / 680));
   }
-  .a:after .b:after{
-    margin-left: 45% !important;
-  }
 }
 
 @media screen and (min-width: 1000px) {
@@ -119,8 +116,8 @@ hr {
   font-size: 40px;
   position: absolute;
   top: 45%;
+  left: 49%;
   margin-top: -28px;
-  left: 50%;
   margin-left: -10px;
   
   animation: occasional-arrow-bounce 3s infinite 2s alternate ease-out;
