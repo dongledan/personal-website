@@ -28,7 +28,9 @@ a:hover {
 }
 
 .b {
-  position: relative;
+  position: absolute;
+  left: 30%;
+  top: -3%
 }
 
 .b:after {
