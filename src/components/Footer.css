@@ -39,7 +39,7 @@ a:hover {
   top: 45%;
   margin-top: -28px;
   left: 50%;
-  margin-left: -10px;
+  margin-left: -.25em;
 }
 
 .b:hover .foreground {
