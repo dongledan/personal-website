@@ -64,17 +64,11 @@ hr {
   .header-text-2 {
     font-size: calc(32px + 6 * ((100vw - 320px) / 680));
   }
-  .a:after .b:after {
-    margin-left: -6px;
-  }
 }
 
 @media screen and (min-width: 1000px) {
   .header-text-2 {
     font-size: 100px;
-  }
-  .a:after .b:after {
-    margin-left: -10px;
   }
 }
 
@@ -119,12 +113,12 @@ hr {
 .a:after {
   color: white;
   content: '\02193';
-  font-size: 40px;
+  font-size: 42px;
   position: absolute;
   top: 45%;
   left: 49%;
   margin-top: -28px;
-  margin-left: -.25em;
+  margin-left: -.22em;
   
   animation: occasional-arrow-bounce 3s infinite 2s alternate ease-out;
 }

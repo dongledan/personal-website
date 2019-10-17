@@ -34,12 +34,12 @@ a:hover {
 .b:after {
   color: white;
   content: '\02191';
-  font-size: 40px;
+  font-size: 42px;
   position: absolute;
   top: 45%;
-  margin-top: -28px;
-  left: 50%;
-  margin-left: -.25em;
+  margin-top: -32px;
+  left: 49%;
+  margin-left: -.22em;
 }
 
 .b:hover .foreground {
