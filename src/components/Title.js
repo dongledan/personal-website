@@ -11,8 +11,13 @@ export default function Title() {
         <h3 class='lead header-text-2'>Danny Li</h3>
         <hr class='line'></hr>
         <h3 class='lead header-text-3'>Software Engineer</h3>
-        <a href='#about'>
-          <ion-icon name="arrow-down" class='arrow slideDown' />
+        <a href='#about' class='a'>
+          <svg class="circle">
+            <g>
+              <ellipse class="background" ry="30" rx="30" cy="31.25" cx="31.25" stroke-width="1"/>
+              <ellipse class="foreground" ry="30" rx="30" cy="31.25" cx="31.25" stroke-width="2"/>
+            </g>
+          </svg>
         </a>
       </div>
     </div>

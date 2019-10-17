@@ -64,31 +64,12 @@ hr {
   .header-text-2 {
     font-size: calc(32px + 6 * ((100vw - 320px) / 680));
   }
-  .arrow {
-    font-size: 4em;
-  }
 }
+
 @media screen and (min-width: 1000px) {
   .header-text-2 {
     font-size: 100px;
   }
-  .arrow {
-    font-size: 12em;
-  }
-}
-
-.arrow {
-  position: absolute;
-  bottom: -0.1em;
-  transform: translate(-50%, 100%);
-  animation: 
-    fadeIn2 9.5s; 
-  color: snow;
-}
-
-.arrow:hover {
-  color: seashell;
-  cursor: pointer;
 }
 
 @keyframes fadeIn {
@@ -117,17 +98,62 @@ hr {
   }
 }
 
-/* @keyframes slideDown {
-  0% {
-    transform: translate(-50%, -80px);
-    opacity: 0;
-  }
-  70% {
-    transform: translate(-50%, -80px);
-    opacity: 0;
-  }
-  100% {
-    transform: translate(-50%, 100%);
-    opacity: 1;
-  }
-} */
+.a {
+  position: relative;
+  animation: fadeIn2 9.5s;
+}
+
+@keyframes occasional-arrow-bounce {
+  0% { transform: translateY(0); }
+  79% { transform: translateY(0); }
+  80% { transform: translateY(2px); }
+  100% { transform: translateY(-4px); }
+}
+
+.a:after {
+  color: white;
+  content: '\02193';
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  margin-top: -28px;
+  left: 50%;
+  margin-left: -10px;
+  
+  animation: occasional-arrow-bounce 3s infinite 2s alternate ease-out;
+}
+
+.circle {
+  height: 62px;
+  width: 62px;
+}
+  
+.background {
+  fill: transparent;
+  stroke: rgba(255, 255, 255, 0.1);
+  transition: all 400ms ease;
+}
+  
+.foreground {
+  fill: transparent;
+  stroke-dasharray: 377;
+  stroke-dashoffset: 377;
+  stroke: #fff;
+  transform-origin: 50% 50%;
+  transform: rotate(-90deg);
+  transition: all 1600ms ease;
+}
+    
+.a:hover .foreground {
+  stroke-dashoffset: 0;
+  transform: rotate(90deg);
+}
+
+@keyframes arrow-bounce {
+  0% { transform: translateY(2px); }
+  100% { transform: translateY(-4px); }
+}
+
+.a:hover:after {
+  animation: arrow-bounce 0.5s infinite alternate ease-out;
+}
