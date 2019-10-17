@@ -22,7 +22,7 @@
 
 .photo img {
   filter: grayscale(100%);
-  transition: 10s !important;
+  transition: 6s !important;
 }
 
 .photo img:hover {
