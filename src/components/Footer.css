@@ -26,3 +26,23 @@ a:hover {
   position: relative;
   bottom: -3em;
 }
+
+.b {
+  position: relative;
+}
+
+.b:after {
+  color: white;
+  content: '\02191';
+  font-size: 40px;
+  position: absolute;
+  top: 45%;
+  margin-top: -28px;
+  left: 50%;
+  margin-left: -10px;
+}
+
+.b:hover .foreground {
+  stroke-dashoffset: 0;
+  transform: rotate(90deg);
+}
