@@ -47,4 +47,4 @@ Project is created with:
 * TODO
 
 ## Closing Statement
-Thank you for taking the time to look through my github! For the final result check it out [here](https://danny-li-website.herokuapp.com/).
+Thank you for taking the time to look through my github! For the final result check it out [here](https://dannyli.us).
