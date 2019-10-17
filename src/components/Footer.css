@@ -29,18 +29,18 @@ a:hover {
 
 .b {
   position: absolute;
-  transform: translate(-50%, 4%) !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .b:after {
   color: white;
   content: '\02191';
   font-size: 42px;
-  position: absolute;
-  top: 45%;
-  margin-top: -32px;
-  left: 49%;
-  margin-left: -.22em;
+  margin-left: -40px;
+  margin-top: -12px;
+
 }
 
 .b:hover .foreground {

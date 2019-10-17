@@ -100,8 +100,11 @@ hr {
 
 .a {
   position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 43%;
   animation: fadeIn2 9.5s;
-  transform: translate(-50%, 7%) !important;
 }
 
 @keyframes occasional-arrow-bounce {
@@ -115,11 +118,8 @@ hr {
   color: white;
   content: '\02193';
   font-size: 42px;
-  position: absolute;
-  top: 45%;
-  left: 49%;
-  margin-top: -28px;
-  margin-left: -.22em;
+  margin-left: -40px;
+  margin-top: -1px;
   
   animation: occasional-arrow-bounce 3s infinite 2s alternate ease-out;
 }
