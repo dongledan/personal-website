@@ -14,7 +14,7 @@ export default function Navagation() {
 
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav" className = 'justify-content-end'>
-        <Nav className='ml-auto'>
+        <Nav className='ml-auto menu'>
           <Nav.Link href='#home'>Home</Nav.Link>
           <Nav.Link href='#about'>About</Nav.Link>
           <Nav.Link href='#projects'>Projects</Nav.Link>
