@@ -28,7 +28,7 @@
 }
 
 .menu .nav-link {
-  margin: 0 40px;
+  margin: 0 30px;
   letter-spacing: 0.1rem;
   position: relative;
   -webkit-transition: color .25s cubic-bezier(.215,.61,.355,1) 0s;
