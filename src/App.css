@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  width: 100%
+  width: 100%;
 }
 
 .App-logo {
@@ -38,10 +38,10 @@ h1 {
 }
 
 body {
-  background-color:	#383838
+  background-color: #383838;
 }
 
 h1 {
-  color:  #e6e6e6;
+  color: #e6e6e6;
   margin-bottom: 1em;
 }

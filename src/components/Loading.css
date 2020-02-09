@@ -5,14 +5,13 @@
   top: 0;
   left: 0;
   background-color: #e6e6e6;
-  display:flex;
+  display: flex;
   justify-content: center;
 }
 .loading-container.hidden {
   animation: fadeOut 1s;
   animation-fill-mode: forwards;
 }
-
 
 .pigeon {
   position: absolute;
@@ -24,8 +23,8 @@
   position: relative;
   z-index: 10;
   height: 40px;
-  -webkit-animation: bounce .5s cubic-bezier(0.51, 0.23, 0.02, 0.96) infinite;
-          animation: bounce .5s cubic-bezier(0.51, 0.23, 0.02, 0.96) infinite;
+  -webkit-animation: bounce 0.5s cubic-bezier(0.51, 0.23, 0.02, 0.96) infinite;
+  animation: bounce 0.5s cubic-bezier(0.51, 0.23, 0.02, 0.96) infinite;
 }
 .ajaxLoad:after {
   position: absolute;
@@ -34,51 +33,51 @@
   display: block;
   width: 22px;
   height: 4px;
-  background: rgba(0,0,0,0.1);
+  background: rgba(0, 0, 0, 0.1);
   border-radius: 100%;
-  content: '';
-  -webkit-animation: shadow .5s infinite;
-          animation: shadow .5s infinite;
+  content: "";
+  -webkit-animation: shadow 0.5s infinite;
+  animation: shadow 0.5s infinite;
 }
 @keyframes bounce {
   0% {
     -webkit-transform: scale(1, 1);
-            transform: scale(1, 1);
+    transform: scale(1, 1);
   }
   50% {
     -webkit-transform: scale(0.95, 1.1) translateY(-8px);
-            transform: scale(0.95, 1.1) translateY(-8px);
+    transform: scale(0.95, 1.1) translateY(-8px);
   }
 }
 @-webkit-keyframes bounce {
   0% {
     -webkit-transform: scale(1, 1);
-            transform: scale(1, 1);
+    transform: scale(1, 1);
   }
   50% {
     -webkit-transform: scale(0.95, 1.1) translateY(-8px);
-            transform: scale(0.95, 1.1) translateY(-8px);
+    transform: scale(0.95, 1.1) translateY(-8px);
   }
 }
 @keyframes shadow {
   0% {
     -webkit-transform: scale(1, 1);
-            transform: scale(1, 1);
+    transform: scale(1, 1);
   }
   50% {
     -webkit-transform: scale(0.7, 1);
-            transform: scale(0.7, 1);
-    background: rgba(0,0,0,0.05);
+    transform: scale(0.7, 1);
+    background: rgba(0, 0, 0, 0.05);
   }
 }
 @-webkit-keyframes shadow {
   0% {
     -webkit-transform: scale(1, 1);
-            transform: scale(1, 1);
+    transform: scale(1, 1);
   }
   50% {
     -webkit-transform: scale(0.7, 1);
-            transform: scale(0.7, 1);
-    background: rgba(0,0,0,0.05);
+    transform: scale(0.7, 1);
+    background: rgba(0, 0, 0, 0.05);
   }
 }
