@@ -3,17 +3,10 @@
   position: fixed;
   align-content: center;
   top: 0;
-  opacity: 0.95;
-}
-
-.logo-name {
-  display: flex;
-  align-items: center;
 }
 
 .img-logo {
   height: 1.5em;
-  padding-right: 5%;
 }
 
 /* .nav {
@@ -28,8 +21,8 @@
 }
 
 .menu .nav-link {
-  margin: 0 25px;
-  letter-spacing: 0.1rem;
+  padding: 0 !important;
+  margin: 5px 10px;
   position: relative;
   -webkit-transition: color .25s cubic-bezier(.215,.61,.355,1) 0s;
   transition: color .25s cubic-bezier(.215,.61,.355,1) 0s;
@@ -57,7 +50,8 @@
 
 .menu .nav-link:hover {
   color: #000 !important;
-  transition: all .3s;
+  letter-spacing: 2px;
+  transition: all .3s ease;
   -webkit-transition: color .45s cubic-bezier(.23,1,.32,1) 0s;
   transition: color .45s cubic-bezier(.23,1,.32,1) 0s;
 }

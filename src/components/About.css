@@ -1,8 +1,24 @@
 .carousel {
   position: relative;
   display: flex;
-  width: 50%;
+  width: 300px;
   margin: auto;
+}
+
+.about-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.p-content {
+  width: 40%;
+  text-align: justify;
+  font-size: 12pt;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
 }
 
 .carousel-control-prev, .carousel-control-next {
@@ -23,8 +39,6 @@
 
 .about-right {
   text-align: left;
-  color: white;
-  mix-blend-mode: luminosity;
 }
 
 #resume-btn p {
@@ -41,7 +55,6 @@
 #ion-resume {
   position: relative;
   top: 0.15em;
-  color: white;
 }
 
 @media screen and (min-width: 320px) {
@@ -77,10 +90,9 @@
 }
 
 .btn-resume {
-    color: #FFF;
+    color: #000;
     transition: all 0.5s;
     position: relative;
-    margin-top: 2em;
 }
 .btn-resume::before {
     content: '';
@@ -89,8 +101,8 @@
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: 1;
-    background-color: rgba(255,255,255,0.1);
+    z-index: -1;
+    background-color: rgba(255,255,255,0.5);
     transition: all 0.3s;
 }
 .btn-resume:hover::before {
@@ -107,7 +119,7 @@
     z-index: 1;
     opacity: 0;
     transition: all 0.3s;
-    border: 1px solid rgba(255,255,255,0.5);
+    border: 1px solid rgba(0,0,0,0.5);
     transform: scale(1.2,1.2);
 }
 .btn-resume:hover::after {
@@ -117,5 +129,5 @@
 }
 
 span {
-  color: white;
+  color: black;
 }

@@ -1,18 +1,17 @@
 .loading-container {
   width: 100%;
   height: 100%;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   background-color: #e6e6e6;
-  display:flex;
   justify-content: center;
 }
+
 .loading-container.hidden {
   animation: fadeOut 1s;
   animation-fill-mode: forwards;
 }
-
 
 .pigeon {
   position: absolute;
@@ -22,7 +21,7 @@
 }
 .svg {
   position: relative;
-  z-index: 10;
+  z-index: 999;
   height: 40px;
   -webkit-animation: bounce .5s cubic-bezier(0.51, 0.23, 0.02, 0.96) infinite;
           animation: bounce .5s cubic-bezier(0.51, 0.23, 0.02, 0.96) infinite;

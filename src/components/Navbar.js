@@ -6,10 +6,9 @@ import './Navbar.css';
 
 export default function Navagation() {
   return (
-    <Navbar bg='white' expand='lg' fixed='top'>
+    <Navbar bg='light' expand='lg' fixed='top'>
       <Navbar.Brand href='#home' className='logo-name'>
         <img src='https://i.imgur.com/nbAqVew.jpg' className='img-logo' alt='close up of my face in windows logo'/>
-        Danny
       </Navbar.Brand>
 
       <Navbar.Toggle aria-controls="basic-navbar-nav" />

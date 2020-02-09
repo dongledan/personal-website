@@ -5,14 +5,10 @@ a {
   transition: 0.5s all;
 }
 
-.Footer {
-  width: 100%;
-  padding-top:2em;
-  position: relative;
-  padding-bottom: 2.5em;
-  margin-top: 2em;
-  background: #555;
-  color: white;
+.footer {
+  padding: 10px 10px 6px 10px;
+  color: #ccc;
+  background-color: #222;
 }
 
 a:hover {
@@ -20,11 +16,19 @@ a:hover {
   text-decoration: none;
 }
 
-.copyright {
-  color: #aaa;
-  font-size: smaller;
-  position: relative;
-  bottom: -3em;
+.social {
+  background-color: #333333;
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+}
+
+.legal p {
+	padding: 10px;
+	color: #999;
+	text-align: center;
+  font-size: 13pt;
+  margin: 0;
 }
 
 .b {
@@ -46,4 +50,10 @@ a:hover {
 .b:hover .foreground {
   stroke-dashoffset: 0;
   transform: rotate(90deg);
+}
+
+.social-icon {
+  height: 40px;
+  width: 40px;
+  margin: 20px;
 }
