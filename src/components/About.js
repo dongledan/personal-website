@@ -10,58 +10,56 @@ export default function About() {
   AOS.init({
     duration: 1300
   });
+
+  const imgs = [
+    {
+      id: 1,
+      src: "https://i.imgur.com/FBKuSsX.jpg", 
+      caption: "Programmer", 
+      alt:"First slide"
+    }, 
+    {
+      id: 2,
+      src: "https://i.imgur.com/Kij6xVe.png", 
+      caption: "Powerlifter", 
+      alt:"Second slide"
+    }, 
+    {
+      id: 3,
+      src: "https://i.imgur.com/qthifkc.jpg", 
+      caption: "Hiker", 
+      alt:"Third slide"
+    }, 
+    {
+      id: 4,
+      src: "https://i.imgur.com/ERH5VG2.jpg", 
+      caption: "Spartan", 
+      alt:"Fourth slide"
+    }
+  ]
+
   return (
   <div id='about' class='about'>
     <h1 class='about-header'  data-aos='fade'>About Me</h1>
     <div class='container row mx-auto'>
+      
       <Carousel interval='8000' class='mt-1 col-6' fade='true'>
-        <Carousel.Item>
+      {imgs.map(img => (
+        <Carousel.Item key={img.key}>
           <Image
             className="img"
-            src='https://i.imgur.com/FBKuSsX.jpg'
-            alt="First slide"
+            src={img.src}
+            alt={img.alt}
             fluid
+            key={img.key}
           />
-          <Carousel.Caption>
-            <h3 className='h3'>Programmer</h3>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <Image
-            className="img"
-            src='https://i.imgur.com/Kij6xVe.png'
-            alt="Second slide"
-            fluid
-          />
+            <Carousel.Caption>
+              <h3 className='h3'>{img.caption}</h3>
+            </Carousel.Caption>
+      </Carousel.Item>
 
-          <Carousel.Caption>
-            <h3 className='h3'>Powerlifter</h3>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <Image
-            className="img"
-            src='https://i.imgur.com/qthifkc.jpg'
-            alt="Third slide"
-            fluid
-          />
-
-          <Carousel.Caption>
-            <h3 className='h3'>Hiker</h3>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <Image
-            className="img"
-            src='https://i.imgur.com/ERH5VG2.jpg'
-            alt="Fourth slide"
-            fluid
-          />
-
-          <Carousel.Caption>
-            <h3 className='h3'>Spartan</h3>
-          </Carousel.Caption>
-        </Carousel.Item>
+      ))}
+        
       </Carousel>
       <div className='col-lg-6 about-right p-content' >
         <p>I studied accounting and economics in Queens College 
