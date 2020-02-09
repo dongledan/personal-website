@@ -5,7 +5,8 @@
   margin: auto;
 }
 
-.carousel-control-prev, .carousel-control-next {
+.carousel-control-prev,
+.carousel-control-next {
   height: 1em;
   top: 45%;
   bottom: auto;
@@ -35,8 +36,8 @@
   display: inline-block;
   color: black;
   font-size: 1.2em;
-  margin-top: .40em;
-  margin-bottom: .50em;
+  margin-top: 0.4em;
+  margin-bottom: 0.5em;
   width: 5em;
   position: relative;
   left: 1%;
@@ -58,17 +59,17 @@
 @media screen and (min-width: 1000px) {
   .about-right {
     font-size: 18px;
-    margin-top: .1em;
+    margin-top: 0.1em;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .row{
+  .row {
     justify-content: center;
   }
-  
+
   .about-right {
-    padding: 0
+    padding: 0;
   }
 }
 
@@ -82,43 +83,42 @@
 }
 
 .btn-resume {
-    color: #FFF;
-    transition: all 0.5s;
-    position: relative;
-    margin-top: 2em;
+  color: #fff;
+  transition: all 0.5s;
+  position: relative;
+  margin-top: 2em;
 }
 .btn-resume::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    background-color: rgba(255,255,255,0.1);
-    transition: all 0.3s;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: all 0.3s;
 }
 .btn-resume:hover::before {
-    opacity: 0 ;
-    transform: scale(0.5,0.5);
+  opacity: 0;
+  transform: scale(0.5, 0.5);
 }
 .btn-resume::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    opacity: 0;
-    transition: all 0.3s;
-    border: 1px solid rgba(255,255,255,0.5);
-    transform: scale(1.2,1.2);
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: all 0.3s;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  transform: scale(1.2, 1.2);
 }
 .btn-resume:hover::after {
-    opacity: 1;
-    transform: scale(1,1);
-    
+  opacity: 1;
+  transform: scale(1, 1);
 }
 
 span {
