@@ -32,26 +32,26 @@ a {
 }
 
 .scroll-up {
-	width: 30px;
-	height: 30px;
-	border: none;
-	position: fixed;
-	bottom: 30px;
-	right: 10px;
-	z-index: 2;
-	font-size: 30px;
-	color: #bbb;
+  width: 30px;
+  height: 30px;
+  border: none;
+  position: fixed;
+  bottom: 30px;
+  right: 10px;
+  z-index: 2;
+  font-size: 30px;
+  color: #bbb;
   transition: 0.3s;
   background: none;
 }
 
 .scroll-up:active,
 .scroll-up:focus {
-	outline: 0;
+  outline: 0;
 }
 
 .scroll-up:hover {
-	color: #f4f4f4;
+  color: #f4f4f4;
 }
 
 .p-copyright {

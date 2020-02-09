@@ -3,13 +3,14 @@
 A personal website I created using HTML5, CSS, Bootstrap, and React.
 
 ## Table of Contents
-* [General Info](#general-info)
-* [Technologies](#technologies)
-* [Features](#features)
-* [What's Next](#whats-next)
-* [Author](#author)
-* [Acknowledgements](#acknowledgements)
-* [Closing Statement](#closing-statement)
+
+- [General Info](#general-info)
+- [Technologies](#technologies)
+- [Features](#features)
+- [What's Next](#whats-next)
+- [Author](#author)
+- [Acknowledgements](#acknowledgements)
+- [Closing Statement](#closing-statement)
 
 ## General Info
 
@@ -18,33 +19,40 @@ A resume is is a quick run down of a person's past experiences and abilities, bu
 Everybody is unique and has their own little story, with this personal website-- here's a little taste of mine!
 
 ## Technologies
+
 Project is created with:
-* Visual Code version 1.39
-* HTML5
-* CSS
-* Javascript
-* Bootstrap
-* React
+
+- Visual Code version 1.39
+- HTML5
+- CSS
+- Javascript
+- Bootstrap
+- React
 
 ## Features
-* Dynamic scaling between Mobile and Desktop versions -- looks great on both!
-* Crisp, smooth animations
-* Smooth scrolling (Only on desktop browsers not named IE)
-* Nice pleasing images to look at
-* Modern, fluid UI
-* Single page application
+
+- Dynamic scaling between Mobile and Desktop versions -- looks great on both!
+- Crisp, smooth animations
+- Smooth scrolling (Only on desktop browsers not named IE)
+- Nice pleasing images to look at
+- Modern, fluid UI
+- Single page application
 
 ## What's Next
-* Add a blog section -- Articles include: My experiences with Bootcamp
-* Optimizing for slower bandwidth
-* Add custom animations
-* & More!
+
+- Add a blog section -- Articles include: My experiences with Bootcamp
+- Optimizing for slower bandwidth
+- Add custom animations
+- & More!
 
 ## Author
-* [Danny L.](https://www.linkedin.com/in/d-li/)
+
+- [Danny L.](https://www.linkedin.com/in/d-li/)
 
 ## Acknowledgements
-* TODO
+
+- TODO
 
 ## Closing Statement
+
 Thank you for taking the time to look through my github! For the final result check it out [here](http://www.dannyli.us/).
