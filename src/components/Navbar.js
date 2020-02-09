@@ -6,10 +6,9 @@ import './Navbar.css';
 
 export default function Navagation() {
   return (
-    <Navbar bg='white' expand='lg' fixed='top'>
+    <Navbar className="my-navbar navbar-dark" expand='lg' fixed='top'>
       <Navbar.Brand href='#home' className='logo-name'>
         <img src='https://i.imgur.com/nbAqVew.jpg' className='img-logo' alt='close up of my face in windows logo'/>
-        Danny
       </Navbar.Brand>
 
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -24,7 +23,7 @@ export default function Navagation() {
             <NavDropdown.Divider />
             <NavDropdown.Item href='#photos'>Photos</NavDropdown.Item>
           </NavDropdown> */}
-          <Nav.Link href='#footer'>Contact</Nav.Link>
+          <Nav.Link href='#contact'>Contact</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

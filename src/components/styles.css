@@ -22,5 +22,6 @@
 }
 
 .card-footer {
-  color: #e6e6e6
+  color: #e6e6e6;
+  border-top: 0;
 }

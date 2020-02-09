@@ -27,6 +27,10 @@
   mix-blend-mode: luminosity;
 }
 
+.about-right p {
+  text-align: justify;
+}
+
 #resume-btn p {
   display: inline-block;
   color: black;
@@ -36,6 +40,7 @@
   width: 5em;
   position: relative;
   left: 1%;
+  text-align: center !important;
 }
 
 #ion-resume {

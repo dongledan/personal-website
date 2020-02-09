@@ -1,9 +1,7 @@
 .navbar {
   display: flex;
   position: fixed;
-  align-content: center;
   top: 0;
-  opacity: 0.95;
 }
 
 .logo-name {
@@ -11,25 +9,23 @@
   align-items: center;
 }
 
-.img-logo {
-  height: 1.5em;
-  padding-right: 5%;
+.my-navbar {
+  background-color: #222;
+  padding: 20px;
 }
 
-/* .nav {
-  position: fixed;
-  align-content: flex-end;
-  top: 1.5;
-} */
+.img-logo {
+  height: 1.5em;
+}
+
 .nav-link {
   font-size: 1.15em;
   transition: 0.5 all;
-  color: #aaa;
 }
 
 .menu .nav-link {
-  margin: 0 25px;
-  letter-spacing: 0.1rem;
+  margin: 0 10px;
+  padding: 0 !important;
   position: relative;
   -webkit-transition: color .25s cubic-bezier(.215,.61,.355,1) 0s;
   transition: color .25s cubic-bezier(.215,.61,.355,1) 0s;
@@ -42,7 +38,7 @@
   left: 0;
   width: 100%;
   height: 1px;
-  background-color: #F58522;
+  background-color: yellow;
   -webkit-transform: scale(0,1);
   -ms-transform: scale(0,1);
   transform: scale(0,1);
@@ -56,7 +52,7 @@
 }
 
 .menu .nav-link:hover {
-  color: #000 !important;
+  color: #f4f4f4 !important;
   transition: all .3s;
   -webkit-transition: color .45s cubic-bezier(.23,1,.32,1) 0s;
   transition: color .45s cubic-bezier(.23,1,.32,1) 0s;

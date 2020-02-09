@@ -7,9 +7,9 @@ export default function Projects() {
   return (
     <div class='projects' id='projects'>
       <h1 class='projects-header' data-aos='fade'>Projects</h1>
-      <CardGroup>
-        <Card data-aos='fade-up-right' className='card'>
-          <Card.Img variant='top' src='https://i.imgur.com/hIetqAS.png' data-aos='fade-up-right' className='card-img'/>
+      <CardGroup  data-aos='fade'>
+        <Card className='card'>
+          <Card.Img variant='top' src='https://i.imgur.com/hIetqAS.png' className='card-img'/>
           <Card.Body>
             <Card.Title>SuperLike</Card.Title>
             <Card.Text >
@@ -39,7 +39,7 @@ export default function Projects() {
             <small className='card-footer'>React, React-Redux, Express.js, Node.js, Stripe API, Material UI, Axios, PostgreSQL</small>
           </Card.Footer>
         </Card>
-        <Card data-aos='fade-up-left'>
+        <Card>
           <Card.Img variant='top' src='https://i.imgur.com/qbx9PKt.png'/>
           <Card.Body>
             <Card.Title>MTALens</Card.Title>
