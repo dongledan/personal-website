@@ -13,12 +13,11 @@ a {
 .copyright {
   color: #aaa;
   position: relative;
-  background-color: #222;
+  background-color: #111;
   width: 100%;
 }
 
 .social {
-  background-color: #333;
   width: 100%;
   display: flex;
   justify-content: center;

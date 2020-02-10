@@ -13,12 +13,12 @@ export default function About() {
   });
 
   return (
-    <div id="about" class="about">
-      <h1 class="about-header" data-aos="fade">
+    <div id="about" className="about">
+      <h1 className="about-header" data-aos="fade">
         About Me
       </h1>
-      <div class="container row mx-auto">
-        <Carousel interval="8000" class="mt-1 col-6" fade="true">
+      <div className="container row mx-auto">
+        <Carousel interval="8000" className="mt-1 col-6" fade="true">
           {imgs.map(img => (
             <Carousel.Item key={img.key}>
               <Image
@@ -63,7 +63,7 @@ export default function About() {
       </div>
       <div>
         <a href={pdf} target="_blank" rel="noopener noreferrer">
-          <div class="btn btn-resume">
+          <div className="btn btn-resume">
             <ion-icon name="download" id="ion-resume" />
             {"   "}
             <span>Resume</span>

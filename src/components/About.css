@@ -20,11 +20,12 @@
 .about {
   position: relative;
   margin: auto;
+  background-color: #333;
 }
 
 .about-right {
   text-align: left;
-  color: white;
+  color: #e6e6e6;
   mix-blend-mode: luminosity;
 }
 
@@ -34,7 +35,7 @@
 
 #resume-btn p {
   display: inline-block;
-  color: black;
+  color: #000;
   font-size: 1.2em;
   margin-top: 0.4em;
   margin-bottom: 0.5em;
@@ -47,7 +48,7 @@
 #ion-resume {
   position: relative;
   top: 0.15em;
-  color: white;
+  color: #e6e6e6;
 }
 
 @media screen and (min-width: 320px) {
@@ -83,7 +84,7 @@
 }
 
 .btn-resume {
-  color: #fff;
+  color: #e6e6e6;
   transition: all 0.5s;
   position: relative;
   margin-top: 2em;
@@ -122,5 +123,5 @@
 }
 
 span {
-  color: white;
+  color: #e6e6e6;
 }

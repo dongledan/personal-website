@@ -5,7 +5,7 @@
   margin: auto;
 }
 #photos {
-  margin-top: 2em;
+  background-color: #333;
 }
 .images {
   height: 100%;

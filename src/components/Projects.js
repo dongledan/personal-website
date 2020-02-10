@@ -35,7 +35,7 @@ export default function Projects() {
               </Card.Text>
             </Card.Body>
             <Card.Footer>
-              <small className="card-footer">{project.footer}</small>
+              <p className="card-footer">{project.footer}</p>
             </Card.Footer>
           </Card>
         ))}

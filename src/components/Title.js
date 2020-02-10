@@ -4,23 +4,17 @@ import Image from "react-bootstrap/Image";
 
 export default function Title() {
   return (
-    <div class="home">
-      <Image
-        src="https://i.imgur.com/sJH7vkz.jpg"
-        fluid
-        data-aos="fade-down"
-        class="image"
-      />
-      <div class="container-header">
-        <h3 class="lead header-text">Welcome to my site!</h3>
-        <h3 class="lead header-text-2">Danny Li</h3>
-        <hr class="line"></hr>
-        <h3 class="lead header-text-3 anim-typewriter">Software Engineer :)</h3>
-        <a href="#about" class="a">
-          <svg class="circle">
+    <div className="home header-img">
+      <div className="container-header">
+        <h3 className="lead header-text">Welcome to my site!</h3>
+        <h3 className="lead header-text-2">Danny Li</h3>
+        <hr className="line"></hr>
+        <h3 className="lead header-text-3 anim-typewriter">Software Engineer :)</h3>
+        <a href="#about" className="a">
+          <svg className="circle">
             <g>
               <ellipse
-                class="background"
+                className="background"
                 ry="30"
                 rx="30"
                 cy="31.25"
@@ -28,7 +22,7 @@ export default function Title() {
                 stroke-width="1"
               />
               <ellipse
-                class="foreground"
+                className="foreground"
                 ry="30"
                 rx="30"
                 cy="31.25"
