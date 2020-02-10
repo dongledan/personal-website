@@ -1,6 +1,5 @@
 import React from "react";
 import "./Title.css";
-import Image from "react-bootstrap/Image";
 
 export default function Title() {
   return (
@@ -11,26 +10,7 @@ export default function Title() {
         <hr className="line"></hr>
         <h3 className="lead header-text-3 anim-typewriter">Software Engineer :)</h3>
         <a href="#about" className="a">
-          <svg className="circle">
-            <g>
-              <ellipse
-                className="background"
-                ry="30"
-                rx="30"
-                cy="31.25"
-                cx="31.25"
-                strokeWidth="1"
-              />
-              <ellipse
-                className="foreground"
-                ry="30"
-                rx="30"
-                cy="31.25"
-                cx="31.25"
-                strokeWidth="2"
-              />
-            </g>
-          </svg>
+          <svg className="circle" />
         </a>
       </div>
     </div>

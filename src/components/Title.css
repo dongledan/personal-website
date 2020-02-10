@@ -152,32 +152,6 @@ hr {
   animation: occasional-arrow-bounce 3s infinite 2s alternate ease-out;
 }
 
-.circle {
-  height: 62px;
-  width: 62px;
-}
-
-.background {
-  fill: transparent;
-  stroke: rgba(255, 255, 255, 0.1);
-  transition: all 400ms ease;
-}
-
-.foreground {
-  fill: transparent;
-  stroke-dasharray: 377;
-  stroke-dashoffset: 377;
-  stroke: #fff;
-  transform-origin: 50% 50%;
-  transform: rotate(-90deg);
-  transition: all 1600ms ease;
-}
-
-.a:hover .foreground {
-  stroke-dashoffset: 0;
-  transform: rotate(90deg);
-}
-
 @keyframes arrow-bounce {
   0% {
     transform: translateY(2px);
