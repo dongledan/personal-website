@@ -17,7 +17,7 @@
 	margin-right: auto; */
 	justify-content: center;
 	background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
-		url("/assets/title.jpg");
+		url("/assets/title.JPG");
 	background-position: right center;
 	background-repeat: no-repeat;
 	background-size: cover;
