@@ -19,7 +19,7 @@ export default function Title() {
                 rx="30"
                 cy="31.25"
                 cx="31.25"
-                stroke-width="1"
+                strokeWidth="1"
               />
               <ellipse
                 className="foreground"
@@ -27,7 +27,7 @@ export default function Title() {
                 rx="30"
                 cy="31.25"
                 cx="31.25"
-                stroke-width="2"
+                strokeWidth="2"
               />
             </g>
           </svg>

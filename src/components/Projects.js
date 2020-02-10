@@ -6,8 +6,8 @@ import projects from "./variables/projects";
 
 export default function Projects() {
   return (
-    <div class="projects" id="projects">
-      <h1 class="projects-header" data-aos="fade">
+    <div className="projects" id="projects">
+      <h1 className="projects-header" data-aos="fade">
         Projects
       </h1>
       <CardGroup data-aos="fade">
@@ -19,19 +19,19 @@ export default function Projects() {
               <Card.Text>
                 {project.desc}
                 <br></br>
-                <div>
+                <span>
                   <a
                     href={project.href}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <div class="btn btn-resume">
+                    <span className="btn btn-resume">
                       <ion-icon name="logo-github" id="ion-resume" />
                       {"   "}
                       <span>View</span>
-                    </div>
+                    </span>
                   </a>
-                </div>
+                </span>
               </Card.Text>
             </Card.Body>
             <Card.Footer>

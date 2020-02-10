@@ -20,13 +20,12 @@ export default function About() {
       <div className="container row mx-auto">
         <Carousel interval="8000" className="mt-1 col-6" fade="true">
           {imgs.map(img => (
-            <Carousel.Item key={img.key}>
+            <Carousel.Item key={img.id}>
               <Image
                 className="img"
                 src={img.src}
                 alt={img.alt}
                 fluid
-                key={img.key}
               />
               <Carousel.Caption>
                 <h3 className="h3">{img.caption}</h3>
