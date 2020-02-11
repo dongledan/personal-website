@@ -43,7 +43,7 @@ export default class Footer extends Component {
         <div className="copyright">
           <p className="p-copyright">
             {" "}
-            &copy; {year} Danny Li. All rights reserved
+            &copy; {year} Danny Li. All rights reserved.
           </p>
         </div>
       </div>

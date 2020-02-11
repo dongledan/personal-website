@@ -4,6 +4,7 @@
   min-height: 300px;
   min-width: 300px;
   margin: auto;
+  padding: 0;
 }
 
 .carousel-control-prev,
@@ -13,9 +14,8 @@
   bottom: auto;
 }
 
-.h3 {
-  position: relative;
-  font-size: 1.3em;
+.img {
+  border-radius: 5px;
 }
 
 .about {
@@ -27,7 +27,6 @@
 .about-right {
   text-align: left;
   color: #e6e6e6;
-  mix-blend-mode: luminosity;
 }
 
 .about-right p {

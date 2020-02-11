@@ -2,11 +2,12 @@
   column-count: 4;
   grid-gap: 2px;
   width: 100%;
-  margin: auto;
 }
+
 #photos {
   background-color: #333;
 }
+
 .images {
   height: 100%;
   width: 100%;
@@ -20,18 +21,19 @@
 
 .photo img {
   filter: grayscale(100%);
-  transition: 6s !important;
+  transition: 20s !important;
 }
 
 .photo img:hover {
   filter: grayscale(0%);
-  transition: 0.6s !important;
+  transition: 0.2s !important;
 }
 
 @media screen and (max-width: 1000px) {
   .container {
     column-count: 2;
     width: 95%;
+    padding-bottom: 1em;
   }
 }
 
@@ -39,5 +41,6 @@
   .container {
     column-count: 2;
     width: 95%;
+    padding-bottom: 1em;
   }
 }

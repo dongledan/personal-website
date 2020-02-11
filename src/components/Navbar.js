@@ -6,13 +6,13 @@ import "./Navbar.css";
 export default function Navagation() {
   return (
     <Navbar className="my-navbar navbar-dark" expand="lg" fixed="top">
-      <Navbar.Brand href="#home" className="logo-name">
+      <a href="#home">
         <img
           src="https://i.imgur.com/nbAqVew.jpg"
           className="img-logo"
           alt="close up of my face in windows logo"
         />
-      </Navbar.Brand>
+      </a>
 
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">

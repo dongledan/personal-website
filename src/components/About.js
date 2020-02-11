@@ -28,7 +28,7 @@ export default function About() {
                 fluid
               />
               <Carousel.Caption>
-                <h3 className="h3">{img.caption}</h3>
+                <h5>{img.caption}</h5>
               </Carousel.Caption>
             </Carousel.Item>
           ))}

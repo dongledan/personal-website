@@ -2,6 +2,7 @@ import React from "react";
 import "./Title.css";
 
 export default function Title() {
+  
   return (
     <div className="home header-img">
       <div className="container-header">

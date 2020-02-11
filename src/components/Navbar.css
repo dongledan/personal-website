@@ -4,18 +4,12 @@
   top: 0;
 }
 
-.logo-name {
-  display: flex;
-  align-items: center;
-}
-
 .my-navbar {
   background-color: #111;
-  padding: 20px;
 }
 
 .img-logo {
-  height: 1.5em;
+  height: 44px;
 }
 
 .nav-link {
