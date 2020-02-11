@@ -5,7 +5,7 @@ import "./Navbar.css";
 
 export default function Navagation() {
   return (
-    <Navbar className="my-navbar" expand="lg" fixed="top">
+    <Navbar className="my-navbar navbar-dark" expand="lg" fixed="top">
       <a href="#home">
         <img
           src="https://i.imgur.com/nbAqVew.jpg"
