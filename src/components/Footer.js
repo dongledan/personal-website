@@ -23,21 +23,21 @@ export default class Footer extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src="/assets/github.png" />
+            <img src="/assets/github.png" alt="black & white github logo"/>
           </a>
           <a
             href="https://www.linkedin.com/in/d-li/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src="/assets/linkedin.png" />
+            <img src="/assets/linkedin.png" alt="black & white linkedin logo"/>
           </a>
           <a
             href="https://www.instagram.com/hike4views/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src="/assets/ig.png" />
+            <img src="/assets/ig.png" alt="black & white instagram logo"/>
           </a>
         </div>
         <div className="copyright">
