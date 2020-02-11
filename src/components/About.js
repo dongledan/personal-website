@@ -13,7 +13,7 @@ export default function About() {
   });
 
   return (
-    <div id="about" className="about">
+    <div id="about" className="container-section">
       <h1 className="about-header" data-aos="fade">
         About Me
       </h1>
@@ -21,12 +21,7 @@ export default function About() {
         <Carousel interval="8000" className="mt-1 col-6" fade="true">
           {imgs.map(img => (
             <Carousel.Item key={img.id}>
-              <Image
-                className="img"
-                src={img.src}
-                alt={img.alt}
-                fluid
-              />
+              <Image className="img" src={img.src} alt={img.alt} fluid />
               <Carousel.Caption>
                 <h5>{img.caption}</h5>
               </Carousel.Caption>

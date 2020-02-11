@@ -13,7 +13,7 @@ export default class Home extends Component {
     return (
       <div id="home" className="home">
         <Navbar />
-        <div className="homeContent">
+        <div>
           <Title />
           <About />
           <Projects />

@@ -6,7 +6,7 @@ import projects from "./variables/projects";
 
 export default function Projects() {
   return (
-    <div className="projects" id="projects">
+    <div className="container-section" id="projects">
       <h1 className="projects-header" data-aos="fade">
         Projects
       </h1>

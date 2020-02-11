@@ -12,7 +12,6 @@ a {
 
 .copyright {
   color: #aaa;
-  position: relative;
   background-color: #111;
   width: 100%;
 }
@@ -27,8 +26,6 @@ a {
 
 .social img {
   margin: 0 15px;
-  height: 200%;
-  transition: all 0.2 ease;
 }
 
 .scroll-up {

@@ -5,7 +5,7 @@ import "./BlogPhotos.css";
 export default class BlogPhotos extends Component {
   render() {
     return (
-      <div id="photos">
+      <div id="photos" className="container-section">
         <h1 data-aos="fade">Photography</h1>
         <div className="photos container" data-aos="fade">
           {images.map((image, i) => (

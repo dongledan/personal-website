@@ -4,19 +4,13 @@
   width: 100%;
 }
 
-#photos {
-  background-color: #333;
-}
-
 .images {
   height: 100%;
   width: 100%;
-  margin-top: 2px;
 }
 
 .photo {
   display: inline-block;
-  width: 100%;
 }
 
 .photo img {

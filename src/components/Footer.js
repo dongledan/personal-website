@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./Footer.css";
+import socials from "./variables/footer";
 
 export default class Footer extends Component {
   render() {
@@ -18,27 +19,16 @@ export default class Footer extends Component {
           ^
         </button>
         <div className="social" id="contact">
-          <a
-            href="https://github.com/dongledan"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src="/assets/github.png" alt="black & white github logo"/>
-          </a>
-          <a
-            href="https://www.linkedin.com/in/d-li/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src="/assets/linkedin.png" alt="black & white linkedin logo"/>
-          </a>
-          <a
-            href="https://www.instagram.com/hike4views/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src="/assets/ig.png" alt="black & white instagram logo"/>
-          </a>
+          {socials.map(social => (
+            <a
+              href={social.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              key={social.id}
+            >
+              <img src={social.src} alt={social.alt} />
+            </a>
+          ))}
         </div>
         <div className="copyright">
           <p className="p-copyright">
