@@ -1,9 +1,10 @@
-import React from "react";
+import React, {Component} from "react";
 import "./Title.css";
 
-export default function Title() {
+export default class Title extends Component {
+  render() {
   return (
-    <div className="home header-img">
+    <div className={`home header-img ${this.props.theme}`}>
       <div className="container-header">
         <h3 className="lead header-text">Welcome to my site!</h3>
         <h3 className="lead header-text-2">Danny Li</h3>
@@ -17,4 +18,5 @@ export default function Title() {
       </div>
     </div>
   );
+}
 }

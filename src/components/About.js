@@ -1,4 +1,4 @@
-import React from "react";
+import React, {Component} from "react";
 import Carousel from "react-bootstrap/Carousel";
 import "./About.css";
 import pdf from "./Documents/DannyLi_Resume.pdf";
@@ -7,13 +7,15 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import imgs from "./variables/about";
 
-export default function About() {
+export default class About extends Component {
+  render() {
   AOS.init({
     duration: 1300
   });
 
+
   return (
-    <div id="about" className="container-section">
+    <div id="about" className={`container-section ${this.props.theme}`}>
       <h1 className="about-header" data-aos="fade">
         About Me
       </h1>
@@ -55,15 +57,20 @@ export default function About() {
           <p> Singing, Dancing, Powerlifting</p>
         </div>
       </div>
-      <div>
+      <div className="btn-container">
         <a href={pdf} target="_blank" rel="noopener noreferrer">
-          <div className="btn btn-resume">
-            <ion-icon name="download" id="ion-resume" />
+          <div className={`btn btn-resume ${this.props.theme}`}>
+            {this.props.theme === 'dark' ?
+            <ion-icon name="download" id="ion-resume" style={{color:"white"}}/>
+            :
+            <ion-icon name="download" id="ion-resume" style={{color:"black"}}/>
+            }
             {"   "}
-            <span>Resume</span>
+            <span className={`span ${this.props.theme}`}>Resume</span>
           </div>
         </a>
       </div>
     </div>
   );
+}
 }

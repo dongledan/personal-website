@@ -18,7 +18,7 @@ export default class Footer extends Component {
         <button className="scroll-up" onClick={() => scrollToTop()}>
           ^
         </button>
-        <div className="social" id="contact">
+        <div className={`social ${this.props.theme}`} id="contact">
           {socials.map(social => (
             <a
               href={social.href}
@@ -30,7 +30,7 @@ export default class Footer extends Component {
             </a>
           ))}
         </div>
-        <div className="copyright">
+        <div className={`copyright ${this.props.theme}`}>
           <p className="p-copyright">
             {" "}
             &copy; {year} Danny Li. All rights reserved.
