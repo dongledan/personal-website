@@ -21,11 +21,6 @@ export default function Navagation() {
           <Nav.Link href="#about">About</Nav.Link>
           <Nav.Link href="#projects">Projects</Nav.Link>
           <Nav.Link href="#photos">Photos</Nav.Link>
-          {/* <NavDropdown title='Blog' id='basic-nav-dropdown'>
-            <NavDropdown.Item>Posts</NavDropdown.Item>
-            <NavDropdown.Divider />
-            <NavDropdown.Item href='#photos'>Photos</NavDropdown.Item>
-          </NavDropdown> */}
           <Nav.Link href="#contact">Contact</Nav.Link>
         </Nav>
       </Navbar.Collapse>

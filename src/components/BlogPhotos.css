@@ -1,6 +1,6 @@
 .container {
   column-count: 4;
-  grid-gap: 2px;
+  grid-gap: 0px;
   width: 100%;
 }
 
