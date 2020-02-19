@@ -2,7 +2,7 @@ const projects = [
   {
     id: 1,
     name: "SuperLike",
-    src: "https://i.imgur.com/hIetqAS.png",
+    src: "assets/superlike.png",
     desc: `Social media has continued to have gotten bigger and bigger and
     allows us to have a bigger reach with people all over the world,
     however sometimes people are not who they say they are. SuperLike
@@ -18,7 +18,7 @@ const projects = [
   {
     id: 2,
     name: "MTALens",
-    src: "https://i.imgur.com/qbx9PKt.png",
+    src: "assets/mtalens.png",
     desc: `We've all been burned by the MTA before. It's nice knowing when
     the next train is coming or delayed, but sometimes the train
     countdown sign is nowhere in sight or broken. With MTALens, all

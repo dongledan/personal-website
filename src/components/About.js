@@ -18,7 +18,7 @@ export default function About() {
         About Me
       </h1>
       <div className="container row mx-auto">
-        <Carousel interval="8000" className="mt-1 col-6" fade="true">
+        <Carousel interval="10000" className="mt-1 col-6" fade="true">
           {imgs.map(img => (
             <Carousel.Item key={img.id}>
               <Image className="img" src={img.src} alt={img.alt} fluid />

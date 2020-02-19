@@ -1,25 +1,25 @@
 const imgs = [
   {
     id: 1,
-    src: "https://i.imgur.com/FBKuSsX.jpg",
+    src: "assets/linkedin.jpg",
     caption: "Programmer",
     alt: "First slide"
   },
   {
     id: 2,
-    src: "https://i.imgur.com/Kij6xVe.png",
+    src: "assets/powerlifting.jpg",
     caption: "Powerlifter",
     alt: "Second slide"
   },
   {
     id: 3,
-    src: "https://i.imgur.com/qthifkc.jpg",
+    src: "assets/hiking.jpeg",
     caption: "Hiker",
     alt: "Third slide"
   },
   {
     id: 4,
-    src: "https://i.imgur.com/ERH5VG2.jpg",
+    src: "assets/spartan.jpg",
     caption: "Spartan",
     alt: "Fourth slide"
   }
