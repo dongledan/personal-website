@@ -33,7 +33,7 @@
   transform: translate(-50%, -50%);
   font-size: 3.2em;
   animation: fadeIn 8s forwards;
-  color: white;
+  color: #f4f4f4;
 }
 
 .header-text-2 {
@@ -42,13 +42,13 @@
   letter-spacing: 0.1em;
   animation: fadeIn2 8.5s;
   z-index: -1;
-  color: white;
+  color: #f4f4f4;
 }
 
 .line {
   position: relative;
   display: block;
-  color: white;
+  color: #f4f4f4;
   overflow: hidden;
   border-style: inset;
   border-width: 1.5px;
@@ -57,10 +57,9 @@
 
 .header-text-3 {
   position: relative;
-  color: white;
-  letter-spacing: 1px;
+  color: #f4f4f4;
   top: 50%;
-  padding: 5px;
+  padding: 5px 0;
   width: 24em;
   margin: 0 auto;
   border-right: 2px solid rgba(255, 255, 255, 0.75);
@@ -70,7 +69,7 @@
   white-space: nowrap;
   overflow: hidden;
   animation: fadeIn2 8.5s, typing 4s steps(21) 8.5s 1 normal both,
-    cursor 800ms steps(21) infinite normal;
+    cursor 600ms steps(21) infinite normal;
 }
 
 @media screen and (min-width: 320px) {
@@ -139,7 +138,7 @@
 }
 
 .a:after {
-  color: white;
+  color: #f4f4f4;
   content: "\02193";
   font-size: 42px;
   position: absolute;
