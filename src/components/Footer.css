@@ -27,6 +27,12 @@ a {
 .social img {
   margin: 0 15px;
   height: 32px;
+  filter: brightness(70%);
+  transition: all 0.3s;
+}
+
+.social img:hover {
+  filter: brightness(100%);
 }
 
 .scroll-up {
