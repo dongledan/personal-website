@@ -43,7 +43,7 @@ export default function About() {
           <h5>Proficient: </h5>
           <p>
             Javascript, Node.js, Express.js, React.js, Redux.js, Sequelize,
-            Axios, Git, HTML, CSS, PostgreSQL, Bootstrap
+            Axios, Git, HTML, CSS, PostgreSQL, MongoDB, Bootstrap
           </p>
           <h5>Familiar:</h5>
           <p>
