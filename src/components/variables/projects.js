@@ -32,7 +32,7 @@ const projects = [
   },
   {
     id: 3,
-    name: "LBs to KG",
+    name: "Bar is Loaded",
     src: "assets/lbsToKg.png",
     desc: `This is a personal app that I made for myself after competing in a USAPL meet. Leading up to the meet, I trained using pound plates and did not have exposure to kilo plates. I cannot do quick maths when decimals are involved. Using react native, expo, node.js, and plain javascript-- now I don't have to do quick maths! By placing in a weight in lbs, the app will tell you how many plates you need with a helpful graphic for visualization!`,
     href: "https://dongledan.github.io/bar-is-loaded/",
